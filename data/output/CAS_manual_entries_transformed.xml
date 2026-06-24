@@ -1,0 +1,1348 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/DARIAH-ERIC/lexicalresources/master/Schemas/TEILex0/out/TEILex0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="lex-0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title />
+      </titleStmt>
+      <publicationStmt>
+        <publisher />
+        <availability>
+          <licence />
+        </availability>
+      </publicationStmt>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language role="sourceLanguage" ident="ang" />
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!--TRANSFORMED RESULTS FOR SUCCESSFULLY PARSED ENTRIES
+==================================================
+Total entries processed: 52
+Successfully parsed: 28
+Success rate: 53.85%
+
+Evaluation notes were added manually to the automatically generated TEI output. Each parsed entry was assigned one overall status:
+
+A = correct or near-correct output; no substantive correction needed.
+B = usable output with minor corrections; the main structure is reliable, but some small elements may be missing, inconsistent, or less granular than the encoding policy requires.
+C = structurally problematic output; some useful encoding is present, but one or more important elements are misplaced, misclassified, or incorrectly modeled.
+D = unusable or critically misleading output, or malformed TEI; the entry would require substantial manual re-encoding.
+
+Each non-A entry was also assigned a main cause:
+
+PARSER (PAR)= the parse tree was already wrong, so the transformer received an incorrect structure.
+TRANSFORMER (TRA) = the parse tree was acceptable, but the transformation into TEI was wrong or incomplete.
+LIMITATION (LIM) = the output differs from the gold standard or encoding policy because the current system does not yet attempt to handle that level of detail, or because the case would require disproportionate additional modeling.
+
+The failed parses are not included in this transformed-output file and are counted separately from the failed-entry output.
+==================================================-->
+      <!-- EVAL status="B" cause="LIM, TRA" note="no oed on sense; <seg> in mwe not needed"
+ENTRY #3
+Entry text: āwiht I. n. _‘aught,’ anything, something_, _Ps_. II. adv. _at all, by
+any means_. tō āhte _at all_. III. _good, of value_, Æ.-->
+      <entry xml:id="CAS2.āwiht" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>āwiht</orth>
+        </form>
+        <entry xml:id="CAS2.āwiht_1" type="homonymicEntry" xml:lang="ang" n="I">
+          <lbl type="homNum">I.</lbl>
+          <gramGrp>
+            <gram type="pos" value="noun" />
+            <gram type="gender" value="neuter">n.</gram>
+          </gramGrp>
+          <sense xml:id="CAS2.āwiht_1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>'aught,' anything, something,</quote>
+              <bibl type="attestation" source="#Ps">
+                <title>Ps</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark>.</metamark>
+        </entry>
+        <entry xml:id="CAS2.āwiht_2" type="homonymicEntry" xml:lang="ang" n="II">
+          <lbl type="homNum">II.</lbl>
+          <gramGrp>
+            <gram type="pos" value="adverb">adv.</gram>
+          </gramGrp>
+          <sense xml:id="CAS2.āwiht_2.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>at all, by any means</quote>
+            </cit>
+          </sense>
+          <metamark>.</metamark>
+          <entry xml:id="CAS2.tō_āhte" type="relatedEntry" xml:lang="ang">
+            <form type="lemma">
+              <orth>
+                <seg>tō</seg>
+                <seg> āhte</seg>
+              </orth>
+            </form>
+            <gramGrp>
+              <gram type="mwe" value="fixed_combination" />
+            </gramGrp>
+            <sense xml:id="CAS2.tō_āhte.1">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>at all</quote>
+              </cit>
+            </sense>
+            <metamark>.</metamark>
+          </entry>
+        </entry>
+        <entry xml:id="CAS2.āwiht_3" type="homonymicEntry" xml:lang="ang" n="III">
+          <lbl type="homNum">III.</lbl>
+          <sense xml:id="CAS2.āwiht_3.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>good, of value,</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark>.</metamark>
+        </entry>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #4
+Entry text: cafortūn (æ, ea^1, e^2) m. _vestibule, court, court-yard_, Æ: _hall,
+residence_, Æ.-->
+      <entry xml:id="CAS2.cafortūn" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>cafortūn</orth>
+          <form type="variant">
+            <orth extent="part" expand="cæfortūn">
+              <pc>(</pc>
+              <seg>æ,</seg>
+            </orth>
+          </form>
+          <form type="variant">
+            <orth extent="part" expand="ceafortūn">
+              <seg>ea</seg>
+              <lbl rend="sup">1</lbl>
+              <seg>,</seg>
+            </orth>
+          </form>
+          <form type="variant">
+            <orth extent="part" expand="cafertūn">
+              <seg>e</seg>
+              <lbl rend="sup">2</lbl>
+              <pc>)</pc>
+            </orth>
+          </form>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="noun" />
+          <gram type="gender" value="masculine">m.</gram>
+        </gramGrp>
+        <sense xml:id="CAS2.cafortūn.1">
+          <sense xml:id="CAS2.cafortūn.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>vestibule, court, court-yard,</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.cafortūn.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>hall, residence,</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ</title>
+              </bibl>
+            </cit>
+          </sense>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #6
+Entry text: lind I. f. _lime-tree, linden_, _Gl_; Æ; Mdf: (†) _shield (of wood)_.
+[‘_lind_’] II. = lynd-->
+      <entry xml:id="CAS2.lind" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>lind</orth>
+        </form>
+        <entry xml:id="CAS2.lind_1" type="homonymicEntry" xml:lang="ang" n="I">
+          <lbl type="homNum">I.</lbl>
+          <gramGrp>
+            <gram type="pos" value="noun" />
+            <gram type="gender" value="feminine">f.</gram>
+          </gramGrp>
+          <sense xml:id="CAS2.lind_1.1">
+            <sense xml:id="CAS2.lind_1.1.1">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>lime-tree, linden,</quote>
+                <bibl type="attestation" source="#Gl">
+                  <title>Gl;</title>
+                </bibl>
+                <bibl type="attestation" source="#Æ">
+                  <title>Æ;</title>
+                </bibl>
+                <bibl type="attestation" source="#Mdf">
+                  <title>Mdf</title>
+                </bibl>
+              </cit>
+            </sense>
+            <metamark function="senseSeparator">:</metamark>
+            <sense xml:id="CAS2.lind_1.1.2">
+              <usg type="textType" expand="attested in poetic texts only">†</usg>
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>shield</quote>
+                <gloss>(of wood)</gloss>
+              </cit>
+            </sense>
+          </sense>
+          <metamark>.</metamark>
+          <etym>
+            <pc>[</pc>
+            <xr type="related">
+              <ref type="entry" target="OED_lind">'lind'</ref>
+            </xr>
+            <pc>]</pc>
+          </etym>
+        </entry>
+        <entry xml:id="CAS2.lind_2" type="homonymicEntry" xml:lang="ang" n="II">
+          <lbl type="homNum">II.</lbl>
+          <xr type="related" expand="orthographic variant">
+            <lbl>=</lbl>
+            <ref target="#CAS2.lynd" type="entry">lynd</ref>
+          </xr>
+        </entry>
+      </entry>
+      <!-- EVAL status="B" cause="TRA" note="<seg> in mwe not needed, also empty <seg>"
+ENTRY #8
+Entry text: trym † (e) n. _small piece, short length_. fōtes t. _a foot’s length_.-->
+      <entry xml:id="CAS2.trym" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>trym</orth>
+          <form type="variant">
+            <orth extent="part" expand="trem">
+              <pc>(</pc>
+              <seg>e</seg>
+              <pc>)</pc>
+            </orth>
+          </form>
+        </form>
+        <usg type="textType" expand="attested in poetic texts only">†</usg>
+        <gramGrp>
+          <gram type="pos" value="noun" />
+          <gram type="gender" value="neuter">n.</gram>
+        </gramGrp>
+        <sense xml:id="CAS2.trym.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>small piece, short length</quote>
+          </cit>
+        </sense>
+        <metamark>.</metamark>
+        <entry xml:id="CAS2.fōtes_trym" type="relatedEntry" xml:lang="ang">
+          <form type="lemma">
+            <orth>
+              <seg>fōtes</seg>
+              <seg />
+              <ref type="form" scope="currentEntry" value="trym">t.</ref>
+            </orth>
+          </form>
+          <gramGrp>
+            <gram type="mwe" value="fixed_combination" />
+          </gramGrp>
+          <sense xml:id="CAS2.fōtes_trym.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>a foot's length</quote>
+            </cit>
+          </sense>
+          <metamark>.</metamark>
+        </entry>
+      </entry>
+      <!-- EVAL status="B" cause="LIM" note="var segments unresolved"
+ENTRY #10
+Entry text: ±edcwician (cwyc-, cuc-) _to re-quicken, revive_, Æ.-->
+      <entry xml:id="CAS2.edcwician" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth extent="full" expand="edcwician, ge-edcwician">
+            <lbl expand="ge-_optional">±</lbl>
+            <seg>edcwician</seg>
+          </orth>
+          <form type="variant">
+            <orth extent="part">
+              <pc>(</pc>
+              <seg>cwyc-,</seg>
+            </orth>
+          </form>
+          <form type="variant">
+            <orth extent="part">
+              <seg>cuc-</seg>
+              <pc>)</pc>
+            </orth>
+          </form>
+        </form>
+        <sense xml:id="CAS2.edcwician.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>to re-quicken, revive,</quote>
+            <bibl type="attestation" source="#Æ">
+              <title>Æ</title>
+            </bibl>
+          </cit>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #11
+Entry text: ord m. _point, spear-point, spear_, _B, CP_: _source, beginning_, _Æ,
+CP_: _front, vanguard_, Æ: _chief, prince_; in pl. _first men, the
+flower_. [‘_ord_’]-->
+      <entry xml:id="CAS2.ord" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ord</orth>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="noun" />
+          <gram type="gender" value="masculine">m.</gram>
+        </gramGrp>
+        <sense xml:id="CAS2.ord.1">
+          <sense xml:id="CAS2.ord.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>point, spear-point, spear,</quote>
+              <bibl type="attestation" source="#B">
+                <title>B,</title>
+              </bibl>
+              <bibl type="attestation" source="#CP">
+                <title>CP</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.ord.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>source, beginning,</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ,</title>
+              </bibl>
+              <bibl type="attestation" source="#CP">
+                <title>CP</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.ord.1.3">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>front, vanguard,</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.ord.1.4">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>chief, prince</quote>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">;</metamark>
+          <sense xml:id="CAS2.ord.1.5">
+            <gramGrp>
+              <lbl type="usage">in</lbl>
+              <gram type="construction" value="plural">pl.</gram>
+            </gramGrp>
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>first men, the flower</quote>
+            </cit>
+          </sense>
+        </sense>
+        <etym>
+          <pc>[</pc>
+          <xr type="related">
+            <ref type="entry" target="OED_ord">'ord'</ref>
+          </xr>
+          <pc>]</pc>
+        </etym>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #14
+Entry text: wāt I. pres. 3 sg. of witan. II. pret. 3 sg. of wītan. III. = wǣt-->
+      <entry xml:id="CAS2.wāt" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>wāt</orth>
+        </form>
+        <entry xml:id="CAS2.wāt_1" type="homonymicEntry" xml:lang="ang" n="I">
+          <lbl type="homNum">I.</lbl>
+          <gramGrp>
+            <gram type="pos" value="verb" />
+            <gram type="tense" value="present">pres.</gram>
+            <gram type="person" value="third">3</gram>
+            <gram type="number" value="singular">sg.</gram>
+          </gramGrp>
+          <xr type="related" expand="inflected form">
+            <lbl>of</lbl>
+            <ref target="#CAS2.witan" type="entry">witan</ref>
+          </xr>
+        </entry>
+        <entry xml:id="CAS2.wāt_2" type="homonymicEntry" xml:lang="ang" n="II">
+          <lbl type="homNum">II.</lbl>
+          <gramGrp>
+            <gram type="pos" value="verb" />
+            <gram type="tense" value="preterite">pret.</gram>
+            <gram type="person" value="third">3</gram>
+            <gram type="number" value="singular">sg.</gram>
+          </gramGrp>
+          <xr type="related" expand="inflected form">
+            <lbl>of</lbl>
+            <ref target="#CAS2.wītan" type="entry">wītan</ref>
+          </xr>
+        </entry>
+        <entry xml:id="CAS2.wāt_3" type="homonymicEntry" xml:lang="ang" n="III">
+          <lbl type="homNum">III.</lbl>
+          <xr type="related" expand="orthographic variant">
+            <lbl>=</lbl>
+            <ref target="#CAS2.wǣt" type="entry">wǣt</ref>
+          </xr>
+        </entry>
+      </entry>
+      <!-- EVAL status="C" cause="PAR, LIM" note="reflex misclassified as gloss; no oed in sense; no + in sense "
+ENTRY #15
+Entry text: ±etan^5 (ea, eo) _to ‘eat,’_ _Æ, AO, Jn_: _devour, consume_, _Jn_; CP:
+(reflex.) _provision oneself_: (+) _eat together_.-->
+      <entry xml:id="CAS2.etan" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth extent="full" expand="etan, ge-etan">
+            <lbl expand="ge-_optional">±</lbl>
+            <seg>etan</seg>
+          </orth>
+          <form type="variant">
+            <orth extent="part" expand="eatan, ge-eatan">
+              <pc>(</pc>
+              <seg>ea,</seg>
+            </orth>
+          </form>
+          <form type="variant">
+            <orth extent="part" expand="eotan, ge-eotan">
+              <seg>eo</seg>
+              <pc>)</pc>
+            </orth>
+          </form>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="strong verb" />
+          <gram type="inflectionType">
+            <hi rend="superscript">5</hi>
+          </gram>
+        </gramGrp>
+        <sense xml:id="CAS2.etan.1">
+          <sense xml:id="CAS2.etan.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>to 'eat,'</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ,</title>
+              </bibl>
+              <bibl type="attestation" source="#AO">
+                <title>AO,</title>
+              </bibl>
+              <bibl type="attestation" source="#Jn">
+                <title>Jn</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.etan.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>devour, consume,</quote>
+              <bibl type="attestation" source="#Jn">
+                <title>Jn;</title>
+              </bibl>
+              <bibl type="attestation" source="#CP">
+                <title>CP</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.etan.1.3">
+            <cit type="translationEquivalent" xml:lang="en">
+              <gloss>(reflex.)</gloss>
+              <quote>provision oneself</quote>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.etan.1.4">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>eat together</quote>
+            </cit>
+          </sense>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #17
+Entry text: ±fremian, fremman _to further, advance, support_, _An, B_: _frame, make,
+do, perpetrate, commit, afford_, _B, Gen_; CP: (w. d.) _avail, benefit,
+do good_, _Æ, Mt_. [‘_freme_’]-->
+      <entry xml:id="CAS2.fremian" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth extent="full" expand="fremian, ge-fremian">
+            <lbl expand="ge-_optional">±</lbl>
+            <seg>fremian</seg>
+          </orth>
+          <form type="variant">
+            <orth>fremman</orth>
+          </form>
+        </form>
+        <sense xml:id="CAS2.fremian.1">
+          <sense xml:id="CAS2.fremian.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>to further, advance, support,</quote>
+              <bibl type="attestation" source="#An">
+                <title>An,</title>
+              </bibl>
+              <bibl type="attestation" source="#B">
+                <title>B</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.fremian.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>frame, make, do, perpetrate, commit, afford,</quote>
+              <bibl type="attestation" source="#B">
+                <title>B,</title>
+              </bibl>
+              <bibl type="attestation" source="#Gen">
+                <title>Gen;</title>
+              </bibl>
+              <bibl type="attestation" source="#CP">
+                <title>CP</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.fremian.1.3">
+            <pc>(</pc>
+            <gramGrp>
+              <lbl type="usage" norm="with">w.</lbl>
+              <gram type="construction" value="dative">d.</gram>
+            </gramGrp>
+            <pc>)</pc>
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>avail, benefit, do good,</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ,</title>
+              </bibl>
+              <bibl type="attestation" source="#Mt">
+                <title>Mt</title>
+              </bibl>
+            </cit>
+          </sense>
+        </sense>
+        <etym>
+          <pc>[</pc>
+          <xr type="related">
+            <ref type="entry" target="OED_freme">'freme'</ref>
+          </xr>
+          <pc>]</pc>
+        </etym>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #20
+Entry text: georn-ful, -fullic _desirous, eager, zealous, diligent_, AO, CP. adv.
+-līce, Æ.-->
+      <entry xml:id="CAS2.georn-ful" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>georn-ful</orth>
+          <form type="variant">
+            <orth extent="part" expand="georn-fullic">
+              <seg>-fullic</seg>
+            </orth>
+          </form>
+        </form>
+        <sense xml:id="CAS2.georn-ful.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>desirous, eager, zealous, diligent,</quote>
+            <bibl type="attestation" source="#AO">
+              <title>AO,</title>
+            </bibl>
+            <bibl type="attestation" source="#CP">
+              <title>CP</title>
+            </bibl>
+          </cit>
+        </sense>
+        <metamark>.</metamark>
+        <entry xml:id="CAS2.georn-fullīce" type="relatedEntry" xml:lang="ang">
+          <gramGrp>
+            <gram type="pos" value="adverb">adv.</gram>
+          </gramGrp>
+          <form type="lemma">
+            <orth extent="part" expand="georn-fullīce">
+              <seg>-līce</seg>
+            </orth>
+          </form>
+          <bibl type="attestation" source="#Æ">
+            <title>Æ</title>
+          </bibl>
+          <metamark>.</metamark>
+        </entry>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #23
+Entry text: be-byrgan (AO) -byrian I. _to raise a mound to, bury, inter_, _Æ_.
+[‘_bebury_’] II. = bebeorgan--> 
+      <entry xml:id="CAS2.be-byrgan" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>be-byrgan</orth>
+          <bibl type="attestation" source="#AO">
+            <title>AO</title>
+          </bibl>
+          <form type="variant">
+            <orth extent="part" expand="be-byrian">
+              <seg>-byrian</seg>
+            </orth>
+          </form>
+        </form>
+        <entry xml:id="CAS2.be-byrgan_1" type="homonymicEntry" xml:lang="ang" n="I">
+          <lbl type="homNum">I.</lbl>
+          <sense xml:id="CAS2.be-byrgan_1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>to raise a mound to, bury, inter,</quote>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark>.</metamark>
+          <etym>
+            <pc>[</pc>
+            <xr type="related">
+              <ref type="entry" target="OED_bebury">'bebury'</ref>
+            </xr>
+            <pc>]</pc>
+          </etym>
+        </entry>
+        <entry xml:id="CAS2.be-byrgan_2" type="homonymicEntry" xml:lang="ang" n="II">
+          <lbl type="homNum">II.</lbl>
+          <xr type="related" expand="orthographic variant">
+            <lbl>=</lbl>
+            <ref target="#CAS2.bebeorgan" type="entry">bebeorgan</ref>
+          </xr>
+        </entry>
+      </entry>
+      <!-- EVAL status="C" cause="PAR, TRA" note="variant scope; one var segment lost; one gender lost"
+ENTRY #24
+Entry text: wealh-moru, -more (a^1) f., -mora m. _carrot, parsnip_.-->
+      <entry xml:id="CAS2.wealh-moru" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>wealh-moru</orth>
+          <form type="variant">
+            <orth extent="part" expand="wealh-more">
+              <seg>-more</seg>
+            </orth>
+          </form>
+          <form type="variant">
+            <orth extent="part" expand="wealh-mora">
+              <seg>-mora</seg>
+            </orth>
+          </form>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="noun" />
+          <gram type="gender" value="masculine">m.</gram>
+        </gramGrp>
+        <sense xml:id="CAS2.wealh-moru.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>carrot, parsnip</quote>
+          </cit>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="C" cause="TRA, LIM" note="gram and inflected form out of order; uncorrectly resolved var segments; no oed in sense; etc. lost "
+ENTRY #27
+Entry text: cild (y) (nap. cild, cild-ra, -ru; gp. -ra) n. _‘child,’ infant_, _Mt,
+Lcd_, _etc._; Æ, AO, CP: _a youth of gentle birth_, _KC_.-->
+      <entry xml:id="CAS2.cild" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>cild</orth>
+          <form type="variant">
+            <orth extent="part" expand="cyld">
+              <pc>(</pc>
+              <seg>y</seg>
+              <pc>)</pc>
+            </orth>
+          </form>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="noun" />
+          <gram type="gender" value="neuter">n.</gram>
+        </gramGrp>
+        <form type="inflected">
+          <gramGrp>
+            <gram type="case" value="nominative, accusative">na</gram>
+            <gram type="number" value="plural">p.</gram>
+          </gramGrp>
+          <orth>cild</orth>
+          <orth>cild-ra</orth>
+          <orth extent="part" expand="ciru">
+            <seg>-ru</seg>
+          </orth>
+        </form>
+        <form type="inflected">
+          <gramGrp>
+            <gram type="case" value="genitive">g</gram>
+            <gram type="number" value="plural">p.</gram>
+          </gramGrp>
+          <orth extent="part" expand="cira">
+            <seg>-ra</seg>
+          </orth>
+        </form>
+        <sense xml:id="CAS2.cild.1">
+          <sense xml:id="CAS2.cild.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>'child,' infant,</quote>
+              <bibl type="attestation" source="#Mt">
+                <title>Mt,</title>
+              </bibl>
+              <bibl type="attestation" source="#Lcd">
+                <title>Lcd,</title>
+              </bibl>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ,</title>
+              </bibl>
+              <bibl type="attestation" source="#AO">
+                <title>AO,</title>
+              </bibl>
+              <bibl type="attestation" source="#CP">
+                <title>CP</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.cild.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>a youth of gentle birth,</quote>
+              <bibl type="attestation" source="#KC">
+                <title>KC</title>
+              </bibl>
+            </cit>
+          </sense>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="B" cause="TRA" note="paren seg in var form unresolved, var seg resolved incorrectly"
+ENTRY #31
+Entry text: āhefegian (CP), -hef(i)gian (æ) _to make heavy, oppress_.-->
+      <entry xml:id="CAS2.āhefegian" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>āhefegian</orth>
+          <bibl type="attestation" source="#CP">
+            <title>CP</title>
+          </bibl>
+          <form type="variant">
+            <orth extent="part">
+              <seg>-hef(i)gian</seg>
+            </orth>
+          </form>
+          <form type="variant">
+            <orth extent="part" expand="-hæf(i)gian">
+              <pc>(</pc>
+              <seg>æ</seg>
+              <pc>)</pc>
+            </orth>
+          </form>
+        </form>
+        <sense xml:id="CAS2.āhefegian.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>to make heavy, oppress</quote>
+          </cit>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="B" cause="LIM" note="as sb. unresloved; no var seg in source"
+ENTRY #32
+Entry text: ðrirēðre _with three rows of oars_. as sb. _trireme_, AO (īe).-->
+      <entry xml:id="CAS2.ðrirēðre" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ðrirēðre</orth>
+        </form>
+        <sense xml:id="CAS2.ðrirēðre.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>with three rows of oars</quote>
+          </cit>
+        </sense>
+        <sense xml:id="CAS2.ðrirēðre.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>trireme,</quote>
+            <bibl type="attestation" source="#AO">
+              <title>AO</title>
+            </bibl>
+          </cit>
+        </sense>
+        <metamark>.</metamark>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="B" cause="LIM" note="var form in xr lost"
+ENTRY #34
+Entry text: lāgon = lǣgon pret. pl. of licgan.-->
+      <entry xml:id="CAS2.lāgon" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>lāgon</orth>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="verb" />
+          <gram type="tense" value="preterite">pret.</gram>
+          <gram type="number" value="plural">pl.</gram>
+        </gramGrp>
+        <xr type="related" expand="inflected form">
+          <lbl>of</lbl>
+          <ref target="#CAS2.licgan" type="entry">licgan</ref>
+        </xr>
+      </entry>
+      <!-- EVAL status="C" cause="LIM" note="lbl and unresolved; sense after xr unresolved"
+ENTRY #35
+Entry text: bā nafn. and am. of bēgen _both_.-->
+      <entry xml:id="CAS2.bā" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>bā</orth>
+        </form>
+        <gramGrp>
+          <gram type="case" value="nominative, accusative">na</gram>
+          <gram type="gender" value="feminine, neuter">fn.</gram>
+          <gram type="case" value="accusative">a</gram>
+          <gram type="gender" value="masculine">m.</gram>
+        </gramGrp>
+        <xr type="related" expand="inflected form">
+          <lbl>of</lbl>
+          <ref target="#CAS2.bēgen" type="entry">bēgen</ref>
+        </xr>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #36
+Entry text: āborgian _to be surety for_, LL: (w. æt) _borrow_.-->
+      <entry xml:id="CAS2.āborgian" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>āborgian</orth>
+        </form>
+        <sense xml:id="CAS2.āborgian.1">
+          <sense xml:id="CAS2.āborgian.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>to be surety for,</quote>
+              <bibl type="attestation" source="#LL">
+                <title>LL</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.āborgian.1.2">
+            <pc>(</pc>
+            <gramGrp>
+              <lbl type="usage" norm="with">w.</lbl>
+              <gram type="construction">æt</gram>
+            </gramGrp>
+            <pc>)</pc>
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>borrow</quote>
+            </cit>
+          </sense>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="B" cause="LIM" note="tr. intr. unresolved"
+ENTRY #37
+Entry text: ācēocian (tr.) _to choke_: (intr.) _burn out_.-->
+      <entry xml:id="CAS2.ācēocian" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ācēocian</orth>
+        </form>
+        <sense xml:id="CAS2.ācēocian.1">
+          <sense xml:id="CAS2.ācēocian.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>to choke</quote>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.ācēocian.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>burn out</quote>
+            </cit>
+          </sense>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="B" cause="LIM" note="tr. intr. unresolved"
+ENTRY #38
+Entry text: āfȳsan (intr.) _to hasten_: _inspire with longing_, #Bl#: (tr.) _urge,
+impel, excite_: _drive away_. [fūs]-->
+      <entry xml:id="CAS2.āfȳsan" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>āfȳsan</orth>
+        </form>
+        <sense xml:id="CAS2.āfȳsan.1">
+          <sense xml:id="CAS2.āfȳsan.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>to hasten</quote>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.āfȳsan.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>inspire with longing,</quote>
+              <bibl type="attestation" source="#Bl">
+                <title>Bl</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.āfȳsan.1.3">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>urge, impel, excite</quote>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.āfȳsan.1.4">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>drive away</quote>
+            </cit>
+          </sense>
+        </sense>
+        <etym>
+          <pc>[</pc>
+          <xr type="related">
+            <ref type="entry" target="#CAS2.fūs">fūs</ref>
+          </xr>
+          <pc>]</pc>
+        </etym>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #39
+Entry text: ǣht I. f. (rare in sg.) _possessions, goods, lands, wealth, cattle_,
+_Mk_; AO: _ownership, control_. [āgan: ‘_aught_’ sb.] II. = ōht-->
+      <entry xml:id="CAS2.ǣht" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ǣht</orth>
+        </form>
+        <entry xml:id="CAS2.ǣht_1" type="homonymicEntry" xml:lang="ang" n="I">
+          <lbl type="homNum">I.</lbl>
+          <gramGrp>
+            <gram type="pos" value="noun" />
+            <gram type="gender" value="feminine">f.</gram>
+          </gramGrp>
+          <sense xml:id="CAS2.ǣht_1.1">
+            <sense xml:id="CAS2.ǣht_1.1.1">
+              <pc>(</pc>
+              <gramGrp>
+                <lbl type="usage">rare in</lbl>
+                <gram type="construction" value="singular">sg.</gram>
+              </gramGrp>
+              <pc>)</pc>
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>possessions, goods, lands, wealth, cattle,</quote>
+                <bibl type="attestation" source="#Mk">
+                  <title>Mk;</title>
+                </bibl>
+                <bibl type="attestation" source="#AO">
+                  <title>AO</title>
+                </bibl>
+              </cit>
+            </sense>
+            <metamark function="senseSeparator">:</metamark>
+            <sense xml:id="CAS2.ǣht_1.1.2">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>ownership, control</quote>
+              </cit>
+            </sense>
+          </sense>
+          <metamark>.</metamark>
+          <etym>
+            <pc>[</pc>
+            <xr type="related">
+              <ref type="entry" target="#CAS2.āgan">āgan</ref>
+            </xr>
+            <pc>:</pc>
+            <xr type="related">
+              <ref type="entry" target="OED_aught">'aught'</ref>
+            </xr>
+            <gramGrp>
+              <gram type="pos" value="noun">sb.</gram>
+            </gramGrp>
+            <pc>]</pc>
+          </etym>
+        </entry>
+        <entry xml:id="CAS2.ǣht_2" type="homonymicEntry" xml:lang="ang" n="II">
+          <lbl type="homNum">II.</lbl>
+          <xr type="related" expand="orthographic variant">
+            <lbl>=</lbl>
+            <ref target="#CAS2.ōht" type="entry">ōht</ref>
+          </xr>
+        </entry>
+      </entry>
+      <!-- EVAL status="B" cause="TRA, LIM" note="sourse inside etym unresolved; <seg> in mwe not needed; double gramgrp not needed"
+ENTRY #40
+Entry text: ǣlc [ēlc, ylc (#VPs#); v. ‘_each_’] I. (pron. subst.) _any, all, every,
+each (one)_, Æ, AO, CP. ǣlc...ōðrum _the one...the other_. II. (adj.
+pron.) _each_, _Lcd_: _any_, _CP_.-->
+      <entry xml:id="CAS2.ǣlc" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ǣlc</orth>
+        </form>
+        <etym>
+          <pc>[</pc>
+          <xr type="related">
+            <ref type="entry" target="#CAS2.ēlc">ēlc</ref>
+          </xr>
+          <pc>,</pc>
+          <xr type="related">
+            <ref type="entry" target="#CAS2.ylc">ylc</ref>
+          </xr>
+          <pc>;</pc>
+          <xr type="related">
+            <lbl norm="vide">v.</lbl>
+            <ref type="entry" target="OED_each">'each'</ref>
+          </xr>
+          <pc>]</pc>
+        </etym>
+        <entry xml:id="CAS2.ǣlc_1" type="homonymicEntry" xml:lang="ang" n="I">
+          <lbl type="homNum">I.</lbl>
+          <gramGrp>
+            <pc>(</pc>
+            <gram type="pos" value="pronoun">pron.</gram>
+          </gramGrp>
+          <gramGrp>
+            <gram type="pos" value="noun">subst.</gram>
+            <pc>)</pc>
+          </gramGrp>
+          <sense xml:id="CAS2.ǣlc_1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>any, all, every, each</quote>
+              <gloss>(one),</gloss>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ,</title>
+              </bibl>
+              <bibl type="attestation" source="#AO">
+                <title>AO,</title>
+              </bibl>
+              <bibl type="attestation" source="#CP">
+                <title>CP</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark>.</metamark>
+          <entry xml:id="CAS2.ǣlc...ōðrum" type="relatedEntry" xml:lang="ang">
+            <form type="lemma">
+              <orth>
+                <seg>ǣlc...ōðrum</seg>
+              </orth>
+            </form>
+            <gramGrp>
+              <gram type="mwe" value="fixed_combination" />
+            </gramGrp>
+            <sense xml:id="CAS2.ǣlc...ōðrum.1">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>the one...the other</quote>
+              </cit>
+            </sense>
+            <metamark>.</metamark>
+          </entry>
+        </entry>
+        <entry xml:id="CAS2.ǣlc_2" type="homonymicEntry" xml:lang="ang" n="II">
+          <lbl type="homNum">II.</lbl>
+          <gramGrp>
+            <pc>(</pc>
+            <gram type="pos" value="adjective">adj.</gram>
+          </gramGrp>
+          <gramGrp>
+            <gram type="pos" value="pronoun">pron.</gram>
+            <pc>)</pc>
+          </gramGrp>
+          <sense xml:id="CAS2.ǣlc_2.1">
+            <sense xml:id="CAS2.ǣlc_2.1.1">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>each,</quote>
+                <bibl type="attestation" source="#Lcd">
+                  <title>Lcd</title>
+                </bibl>
+              </cit>
+            </sense>
+            <metamark function="senseSeparator">:</metamark>
+            <sense xml:id="CAS2.ǣlc_2.1.2">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>any,</quote>
+                <bibl type="attestation" source="#CP">
+                  <title>CP</title>
+                </bibl>
+              </cit>
+            </sense>
+          </sense>
+          <metamark>.</metamark>
+        </entry>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #41
+Entry text: æfesn, æfesen f. _relish, dainty, special pasturage, pannage_; _the
+charge for special pasturage_, LL.-->
+      <entry xml:id="CAS2.æfesn" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>æfesn</orth>
+          <form type="variant">
+            <orth>æfesen</orth>
+          </form>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="noun" />
+          <gram type="gender" value="feminine">f.</gram>
+        </gramGrp>
+        <sense xml:id="CAS2.æfesn.1">
+          <sense xml:id="CAS2.æfesn.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>relish, dainty, special pasturage, pannage</quote>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">;</metamark>
+          <sense xml:id="CAS2.æfesn.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>the charge for special pasturage,</quote>
+              <bibl type="attestation" source="#LL">
+                <title>LL</title>
+              </bibl>
+            </cit>
+          </sense>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="B" cause="LIM" note="paren seg in etym text unresolved"
+ENTRY #42
+Entry text: ācennan _to bring forth, produce, renew_, _Bo, WG_; Æ: _attribute to_.
+[‘_akenne(d)_’]-->
+      <entry xml:id="CAS2.ācennan" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ācennan</orth>
+        </form>
+        <sense xml:id="CAS2.ācennan.1">
+          <sense xml:id="CAS2.ācennan.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>to bring forth, produce, renew,</quote>
+              <bibl type="attestation" source="#Bo">
+                <title>Bo,</title>
+              </bibl>
+              <bibl type="attestation" source="#WG">
+                <title>WG;</title>
+              </bibl>
+              <bibl type="attestation" source="#Æ">
+                <title>Æ</title>
+              </bibl>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.ācennan.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>attribute to</quote>
+            </cit>
+          </sense>
+        </sense>
+        <etym>
+          <pc>[</pc>
+          <xr type="related">
+            <ref type="entry" target="OED_akenne(d)">'akenne(d)'</ref>
+          </xr>
+          <pc>]</pc>
+        </etym>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #43
+Entry text: ādumbian _to become dumb, keep silence_, _Mk_; Æ. [v. ‘_dumb_’ vb.]-->
+      <entry xml:id="CAS2.ādumbian" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ādumbian</orth>
+        </form>
+        <sense xml:id="CAS2.ādumbian.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>to become dumb, keep silence,</quote>
+            <bibl type="attestation" source="#Mk">
+              <title>Mk;</title>
+            </bibl>
+            <bibl type="attestation" source="#Æ">
+              <title>Æ</title>
+            </bibl>
+          </cit>
+        </sense>
+        <etym>
+          <pc>[</pc>
+          <xr type="related">
+            <lbl norm="vide">v.</lbl>
+            <ref type="entry" target="OED_dumb">'dumb'</ref>
+          </xr>
+          <gramGrp>
+            <gram type="pos" value="verb">vb.</gram>
+          </gramGrp>
+          <pc>]</pc>
+        </etym>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="A" cause="" note=""
+ENTRY #44
+Entry text: ād-faru f. ds. -fære _way or path to the funeral pile_, B 3010.-->
+      <entry xml:id="CAS2.ād-faru" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ād-faru</orth>
+        </form>
+        <gramGrp>
+          <gram type="pos" value="noun" />
+          <gram type="gender" value="feminine">f.</gram>
+        </gramGrp>
+        <form type="inflected">
+          <gramGrp>
+            <gram type="case" value="dative">d</gram>
+            <gram type="number" value="singular">s.</gram>
+          </gramGrp>
+          <orth extent="part" expand="ādfære">
+            <seg>-fære</seg>
+          </orth>
+        </form>
+        <sense xml:id="CAS2.ād-faru.1">
+          <cit type="translationEquivalent" xml:lang="en">
+            <quote>way or path to the funeral pile,</quote>
+            <bibl type="attestation" source="#B">
+              <title>B</title>
+              <citedRange unit="line">3010</citedRange>
+            </bibl>
+          </cit>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="B" cause="LIM" note="(Ct.) lost"
+ENTRY #46
+Entry text: ælmeslic _charitable_: _depending on alms, poor_, -līce, adv.
+_charitably_, OET. (Ct.)-->
+      <entry xml:id="CAS2.ælmeslic" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>ælmeslic</orth>
+        </form>
+        <sense xml:id="CAS2.ælmeslic.1">
+          <sense xml:id="CAS2.ælmeslic.1.1">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>charitable</quote>
+            </cit>
+          </sense>
+          <metamark function="senseSeparator">:</metamark>
+          <sense xml:id="CAS2.ælmeslic.1.2">
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>depending on alms, poor,</quote>
+            </cit>
+            <cit type="translationEquivalent" xml:lang="en">
+              <quote>charitably,</quote>
+              <bibl type="attestation" source="#OET">
+                <title>OET</title>
+              </bibl>
+            </cit>
+          </sense>
+        </sense>
+        <metamark>.</metamark>
+      </entry>
+      <!-- EVAL status="C" cause="PAR" note="note/ref misclassified as gloss; no oed in sense; var form in xr unresolved"
+ENTRY #52
+Entry text: āgan I. (conj. Wt 546) _to own, possess, have, obtain_, _An, Bo, Ma,
+Mt_; AO, CP: _give, give up, deliver, restore_: _have to pay, ‘owe,’_
+_Mt, Lk_: _have to do_, ANS 123·417. ā. ūt _find out, discover_. II.
+pret. 3 sg. of āginnan (onginnan).-->
+      <entry xml:id="CAS2.āgan" type="mainEntry" xml:lang="ang">
+        <form type="lemma">
+          <orth>āgan</orth>
+        </form>
+        <entry xml:id="CAS2.āgan_1" type="homonymicEntry" xml:lang="ang" n="I">
+          <lbl type="homNum">I.</lbl>
+          <sense xml:id="CAS2.āgan_1.1">
+            <sense xml:id="CAS2.āgan_1.1.1">
+              <cit type="translationEquivalent" xml:lang="en">
+                <gloss>(conj. Wt 546)</gloss>
+                <quote>to own, possess, have, obtain,</quote>
+                <bibl type="attestation" source="#An">
+                  <title>An,</title>
+                </bibl>
+                <bibl type="attestation" source="#Bo">
+                  <title>Bo,</title>
+                </bibl>
+                <bibl type="attestation" source="#Ma">
+                  <title>Ma,</title>
+                </bibl>
+                <bibl type="attestation" source="#Mt">
+                  <title>Mt;</title>
+                </bibl>
+                <bibl type="attestation" source="#AO">
+                  <title>AO,</title>
+                </bibl>
+                <bibl type="attestation" source="#CP">
+                  <title>CP</title>
+                </bibl>
+              </cit>
+            </sense>
+            <metamark function="senseSeparator">:</metamark>
+            <sense xml:id="CAS2.āgan_1.1.2">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>give, give up, deliver, restore</quote>
+              </cit>
+            </sense>
+            <metamark function="senseSeparator">:</metamark>
+            <sense xml:id="CAS2.āgan_1.1.3">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>have to pay, 'owe,'</quote>
+                <bibl type="attestation" source="#Mt">
+                  <title>Mt,</title>
+                </bibl>
+                <bibl type="attestation" source="#Lk">
+                  <title>Lk</title>
+                </bibl>
+              </cit>
+            </sense>
+            <metamark function="senseSeparator">:</metamark>
+            <sense xml:id="CAS2.āgan_1.1.4">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>have to do,</quote>
+                <bibl type="attestation" source="#ANS">
+                  <title>ANS</title>
+                  <biblScope unit="volume">123</biblScope>
+                  <biblScope unit="page">417</biblScope>
+                </bibl>
+              </cit>
+            </sense>
+          </sense>
+          <metamark>.</metamark>
+          <entry xml:id="CAS2.āgan_ūt" type="relatedEntry" xml:lang="ang">
+            <form type="lemma">
+              <orth>
+                <ref type="form" scope="currentEntry" value="āgan">ā.</ref>
+                <seg> ūt</seg>
+              </orth>
+            </form>
+            <gramGrp>
+              <gram type="mwe" value="fixed_combination" />
+            </gramGrp>
+            <sense xml:id="CAS2.āgan_ūt.1">
+              <cit type="translationEquivalent" xml:lang="en">
+                <quote>find out, discover</quote>
+              </cit>
+            </sense>
+            <metamark>.</metamark>
+          </entry>
+        </entry>
+        <entry xml:id="CAS2.āgan_2" type="homonymicEntry" xml:lang="ang" n="II">
+          <lbl type="homNum">II.</lbl>
+          <gramGrp>
+            <gram type="pos" value="verb" />
+            <gram type="tense" value="preterite">pret.</gram>
+            <gram type="person" value="third">3</gram>
+            <gram type="number" value="singular">sg.</gram>
+          </gramGrp>
+          <xr type="related" expand="inflected form">
+            <lbl>of</lbl>
+            <ref target="#CAS2.āginnan" type="entry">āginnan</ref>
+          </xr>
+        </entry>
+      </entry>
+    </body>
+  </text>
+</TEI>

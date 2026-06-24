@@ -1,0 +1,2672 @@
+FAILED ENTRIES WITH ERROR MESSAGES
+==================================================
+Total entries processed: 1000
+Failed to parse: 95
+Failure rate: 9.50%
+==================================================
+
+ENTRY #211
+--------------------
+Original text: <entry source_id="cīdan"><form>cīdan</form>(<form>cīd|an</form>) quarrel; complain; blame<meta>w. d. or</meta><form>wiþ</form><meta>a</meta>.</entry>
+Cleaned text: cīdan ( cīd|an ) quarrel; complain; blame w. d. or wiþ a.
+
+Error: Unexpected error: No terminal matches 'o' in the current parser context, at line 1 col 102
+
+m>) quarrel; complain; blame<meta>w. d. or</meta><form>wiþ</form><meta>a</meta>.
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* PERS
+	* COMMA
+	* CONSTR
+	* BAR
+	* DGR
+	* SEMICOL_SEP
+	* __ANON_11
+	* POS
+	* TNS
+	* EM_DASH
+	* LSQBR
+	* VALEN
+	* COL_SEP
+	* DOT_SEP
+	* PTC
+	* DECL
+	* __ANON_8
+	* MOOD
+	* __ANON_0
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+
+ENTRY #239
+--------------------
+Original text: <entry source_id="cięrr"><form>cięrr</form><meta>m.</meta>time, occasion —<expr>æt sumum ~e</expr>; (first, second, &amp;c.) time; affair, business.</entry>
+Cleaned text: cięrr m. time, occasion — æt sumum ~e; (first, second, &c.) time; affair, business.
+
+Error: Unexpected error: No terminal matches 'f' in the current parser context, at line 1 col 102
+
+e, occasion —<expr>æt sumum ~e</expr>; (first, second, &c.) time; affair, busine
+                                        ^
+Expected one of: 
+	* QM
+
+
+==================================================
+
+ENTRY #245
+--------------------
+Original text: <entry source_id="cīese"><form>cīes</form>|<form>e</form>,<form>ǣ</form><meta>m.</meta>cheese [<meta>Lt.</meta><form>caseus</form>].</entry>
+Cleaned text: cīes | e, ǣ m. cheese [Lt. caseus].
+
+Error: Unexpected error: No terminal matches '|' in the current parser context, at line 1 col 43
+
+ntry source_id="cīese"><form>cīes</form>|<form>e</form>,<form>ǣ</form><meta>m.</
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #255
+--------------------
+Original text: <entry source_id="cild"><form>cild</form><meta>n., pl.</meta><form>cild(ru)</form>child —<expr>wearþ mid (þām) ~e</expr>became pregnant.<expr>~a hierde</expr>schoolmaster, paedagogus.<expr>~a mæssedæg</expr>Innocents’-day.<form>~trog</form>cradle.</entry>
+Cleaned text: cild n., pl. cild(ru) child — wearþ mid (þām) ~e became pregnant. ~a hierde schoolmaster, paedagogus. ~a mæssedæg Innocents'-day. ~trog cradle.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 223
+
+.<expr>~a mæssedæg</expr>Innocents'-day.<form>~trog</form>cradle.</entry>
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #268
+--------------------
+Original text: <entry source_id="cilforlamb"><form>cilforlamb</form>,<form>cilfor-lamb</form>,<form>eo</form>;<meta>n.</meta>ewe-lamb.</entry>
+Cleaned text: cilforlamb, cilfor-lamb, eo; n. ewe-lamb.
+
+Error: Unexpected error: No terminal matches 'e' in the current parser context, at line 1 col 111
+
+b</form>,<form>eo</form>;<meta>n.</meta>ewe-lamb.</entry>
+                                        ^
+Expected one of: 
+	* RP
+	* __ANON_2
+	* __ANON_10
+	* QM
+	* LP
+	* COMMA
+
+
+==================================================
+
+ENTRY #275
+--------------------
+Original text: <entry source_id="cinc-"><form>cinc-</form>.</entry>
+Cleaned text: cinc-.
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 23
+
+<entry source_id="cinc-"><form>cinc-</form>.</entry>
+                      ^
+Expected one of: 
+	* MORETHAN
+
+
+==================================================
+
+ENTRY #278
+--------------------
+Original text: <entry source_id="cine1"><form>cine</form>(<meta>m.</meta>) folded sheet (of parchment) Gl.<meta>Cp.</meta><form>geclofa</form>. [<form>cīnan</form>].</entry>
+Cleaned text: cine ( m. ) folded sheet (of parchment) Gl. Cp. geclofa. [cīnan].
+
+Error: Unexpected error: No terminal matches 'C' in the current parser context, at line 1 col 98
+
+>) folded sheet (of parchment) Gl.<meta>Cp.</meta><form>geclofa</form>. [<form>c
+                                        ^
+Expected one of: 
+	* DIALECT
+	* NODOTGEN
+	* PERS
+	* USGFREQ
+	* USGTEMP
+	* DGR
+	* TNS
+	* POS
+	* VALEN
+	* MEANINGTYPE
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* POET_SYMB
+	* GEN
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+
+ENTRY #327
+--------------------
+Original text: <entry source_id="ciricþegnung"><form>~þegnung</form>,<form>-þēn-</form><meta>f.</meta>church-service.</entry>
+Cleaned text: ~þegnung, -þēn- f. church-service.
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 65
+
+egnung"><form>~þegnung</form>,<form>-þēn-</form><meta>f.</meta>church-service.</
+                                        ^
+Expected one of: 
+	* __ANON_3
+
+
+==================================================
+
+ENTRY #338
+--------------------
+Original text: <entry source_id="ofergiėtolian"><form>~olian</form>,<form>-geotel-</form>forget.</entry>
+Cleaned text: ~olian, -geotel- forget.
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 67
+
+olian"><form>~olian</form>,<form>-geotel-</form>forget.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_3
+
+
+==================================================
+
+ENTRY #345
+--------------------
+Original text: <entry source_id="ofergylden"><form>ofergylden</form>(<form>ofer-gylden</form>). gilded, adorned with gold.</entry>
+Cleaned text: ofergylden ( ofer-gylden ). gilded, adorned with gold.
+
+Error: Unexpected error: No terminal matches '.' in the current parser context, at line 1 col 80
+
+rgylden</form>(<form>ofer-gylden</form>). gilded, adorned with gold.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* __ANON_14
+	* LP
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #359
+--------------------
+Original text: <entry source_id="oferhīernes"><form>~nes</form><meta>f.</meta>disregard,<meta>esp.</meta>of legal enactment; fine for such disregard.</entry>
+Cleaned text: ~nes f. disregard, esp. of legal enactment; fine for such disregard.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 84
+
+form><meta>f.</meta>disregard,<meta>esp.</meta>of legal enactment; fine for such
+                                        ^
+Expected one of: 
+	* __ANON_12
+	* DIALECT
+	* POS
+	* MEANINGTYPE
+	* LBL
+	* USGLBL
+	* CASE
+	* __ANON_13
+
+
+==================================================
+
+ENTRY #375
+--------------------
+Original text: <entry source_id="oferholt"><form>oferholt</form>(<form>ofer-holt</form>) †<meta>n.</meta>phalanx of shields (?).<meta>Cp.</meta><form>oferhyrned</form>.</entry>
+Cleaned text: oferholt ( ofer-holt ) † n. phalanx of shields (?). Cp. oferhyrned.
+
+Error: Unexpected error: No terminal matches 'C' in the current parser context, at line 1 col 120
+
+a>n.</meta>phalanx of shields (?).<meta>Cp.</meta><form>oferhyrned</form>.</entr
+                                        ^
+Expected one of: 
+	* DIALECT
+	* NODOTGEN
+	* PERS
+	* USGFREQ
+	* USGTEMP
+	* DGR
+	* TNS
+	* POS
+	* VALEN
+	* MEANINGTYPE
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* POET_SYMB
+	* GEN
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+
+ENTRY #382
+--------------------
+Original text: <entry source_id="oferhygd"><form>oferhygd</form>(<form>ofer-hygd</form>),<form>hȳd</form>I.<meta>fn.</meta>pride. II.<meta>aj.</meta>proud.<meta>mis-written or mis-pronounced for</meta><form>oferhygdig</form>,<form>-hygdg-</form>(?).</entry>
+Cleaned text: oferhygd ( ofer-hygd ), hȳd I. fn. pride. II. aj. proud. mis-written or mis-pronounced for oferhygdig, -hygdg- (?).
+
+Error: Unexpected error: No terminal matches 'i' in the current parser context, at line 1 col 148
+
+>pride. II.<meta>aj.</meta>proud.<meta>mis-written or mis-pronounced for</meta><
+                                        ^
+Expected one of: 
+	* NUM
+
+
+==================================================
+
+ENTRY #386
+--------------------
+Original text: <entry source_id="oferhyrned"><form>oferhyrned</form>(<form>ofer-hyrned</form>) † having horns above.<meta>Cp.</meta><form>oferholt</form>.</entry>
+Cleaned text: oferhyrned ( ofer-hyrned ) † having horns above. Cp. oferholt.
+
+Error: Unexpected error: No terminal matches 'C' in the current parser context, at line 1 col 108
+
+rned</form>) † having horns above.<meta>Cp.</meta><form>oferholt</form>.</entry>
+                                        ^
+Expected one of: 
+	* DIALECT
+	* NODOTGEN
+	* PERS
+	* USGFREQ
+	* USGTEMP
+	* DGR
+	* TNS
+	* POS
+	* VALEN
+	* MEANINGTYPE
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* POET_SYMB
+	* GEN
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+
+ENTRY #394
+--------------------
+Original text: <entry source_id="oferlēoran"><form>oferlēoran</form>(<form>ofer·lēor|an</form>)<meta>A. intr.</meta>pass (by)<meta>of space and time</meta>;<meta>tr. and intr.</meta>transgress, prevaricate.</entry>
+Cleaned text: oferlēoran ( ofer·lēor|an ) A. intr. pass (by) of space and time; tr. and intr. transgress, prevaricate.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 95
+
+<form>ofer·lēor|an</form>)<meta>A. intr.</meta>pass (by)<meta>of space and time<
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #409
+--------------------
+Original text: <entry source_id="ofermēde"><form>ofermēde</form>(<form>ofer-mēd|e</form>) I.<meta>n.</meta>pride. II.<meta>once aj.</meta>proud [<form>mōd</form>].</entry>
+Cleaned text: ofermēde ( ofer-mēd|e ) I. n. pride. II. once aj. proud [mōd].
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 117
+
+.<meta>n.</meta>pride. II.<meta>once aj.</meta>proud [<form>mōd</form>].</entry>
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* ROM_NUM
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #412
+--------------------
+Original text: <entry source_id="ofergemet"><form>ofer</form><span class="entryPrefix">ge</span><form>met</form>(<form>ofer-</form><span class="entryPrefix">ge</span><form>met</form>)<meta>n.</meta>excess.</entry>
+Cleaned text: ofer ge met ( ofer- ge met ) n. excess.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 47
+
+ source_id="ofergemet"><form>ofer</form><span class=entryPrefix>ge</span><form>m
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #414
+--------------------
+Original text: <entry source_id="ofermētto"><form>ofermētto</form>(<form>ofer-mētto</form>)<meta>f.</meta><meta>often pl.</meta>pride [<form>mōd</form>].</entry>
+Cleaned text: ofermētto ( ofer-mētto ) f. often pl. pride [mōd].
+
+Error: Unexpected error: No terminal matches 'p' in the current parser context, at line 1 col 104
+
+mētto</form>)<meta>f.</meta><meta>often pl.</meta>pride [<form>mōd</form>].</ent
+                                        ^
+Expected one of: 
+	* __ANON_12
+	* DIALECT
+	* POS
+	* MEANINGTYPE
+	* LBL
+	* USGLBL
+	* CASE
+	* __ANON_13
+
+
+==================================================
+
+ENTRY #429
+--------------------
+Original text: <entry source_id="ofergenyhtsumian"><form>ofer</form><span class="entryPrefix">ge</span><form>nyhtsumian</form>(<form>ofer·</form><span class="entryPrefix">ge</span><form>nyhtsumian</form>)supera-bound</span>.</entry>
+Cleaned text: ofer ge nyhtsumian ( ofer· ge nyhtsumian )supera-bound.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 54
+
+_id="ofergenyhtsumian"><form>ofer</form><span class=entryPrefix>ge</span><form>n
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #456
+--------------------
+Original text: <entry source_id="ofergesętt"><form>ofer</form><span class="entryPrefix">ge</span><form>sętt</form>(<form>ofer-</form><span class="entryPrefix">ge</span><form>sętt</form>) in authority.</entry>
+Cleaned text: ofer ge sętt ( ofer- ge sętt ) in authority.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 48
+
+source_id="ofergesętt"><form>ofer</form><span class=entryPrefix>ge</span><form>s
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #492
+--------------------
+Original text: <entry source_id="ofergetilian"><form>ofer</form><span class="entryPrefix">ge</span><form>tilian</form>(<form>ofer-</form><span class="entryPrefix">ge</span><form>tilian</form>) overcome (!).</entry>
+Cleaned text: ofer ge tilian ( ofer- ge tilian ) overcome (!).
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 50
+
+urce_id="ofergetilian"><form>ofer</form><span class=entryPrefix>ge</span><form>t
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #493
+--------------------
+Original text: <entry source_id="ofergetimbran"><form>ofer</form><span class="entryPrefix">ge</span><form>timbran</form>(<form>ofer</form><span class="entryPrefix">ge</span><form>·timbran</form>) build.</entry>
+Cleaned text: ofer ge timbran ( ofer ge ·timbran ) build.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 51
+
+rce_id="ofergetimbran"><form>ofer</form><span class=entryPrefix>ge</span><form>t
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #504
+--------------------
+Original text: <entry source_id="oferþungen"><form>oferþungen</form>(<form>ofer·þungen</form>)<meta>ptc. of</meta><form>oferþēon</form><meta>or</meta>*<form>oferþingan</form>surpass.</entry>
+Cleaned text: oferþungen ( ofer·þungen ) ptc. of oferþēon or * oferþingan surpass.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 137
+
+ta><form>oferþēon</form><meta>or</meta>*<form>oferþingan</form>surpass.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* __ANON_15
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* EM_DASH
+	* LSQBR
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* DOT_SEP
+	* __ANON_8
+	* __ANON_0
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #512
+--------------------
+Original text: <entry source_id="ofergeweorc"><form>ofer</form><span class="entryPrefix">ge</span><form>weorc</form>(<form>ofer-</form><span class="entryPrefix">ge</span><form>weorc</form>)<meta>n.</meta>superstructure; tomb.</entry>
+Cleaned text: ofer ge weorc ( ofer- ge weorc ) n. superstructure; tomb.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 49
+
+ource_id="ofergeweorc"><form>ofer</form><span class=entryPrefix>ge</span><form>w
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #526
+--------------------
+Original text: <entry source_id="ofergewrit"><form>ofer</form><span class="entryPrefix">ge</span><form>writ</form>(<form>ofer-</form><span class="entryPrefix">ge</span><form>writ</form>)<meta>n.</meta>super-, in-scription.</entry>
+Cleaned text: ofer ge writ ( ofer- ge writ ) n. super-, in-scription.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 48
+
+source_id="ofergewrit"><form>ofer</form><span class=entryPrefix>ge</span><form>w
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #546
+--------------------
+Original text: <entry source_id="ofgān"><form>ofgān</form>(<form>of·gān</form>),<form>-gangan</form><meta>vb. w.</meta><form>æt</form>exact, extort, acquire; begin:<expr>ofgā his sprǣce</expr>(suit)<expr>mid foreāþe</expr>.</entry>
+Cleaned text: ofgān ( of·gān ), -gangan vb. w. æt exact, extort, acquire; begin: ofgā his sprǣce (suit) mid foreāþe.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 98
+
+/form>),<form>-gangan</form><meta>vb. w.</meta><form>æt</form>exact, extort, acq
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #553
+--------------------
+Original text: <entry source_id="ofhearmian"><form>ofhearmian</form>(<form>of·hearm|ian</form>)<meta>once, impers. wdg.</meta>cause grief:<expr>him ~ode þæs</expr>.</entry>
+Cleaned text: ofhearmian ( of·hearm|ian ) once, impers. wdg. cause grief: him ~ode þæs.
+
+Error: Unexpected error: No terminal matches 'i' in the current parser context, at line 1 col 93
+
+>(<form>of·hearm|ian</form>)<meta>once, impers. wdg.</meta>cause grief:<expr>him
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_2
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* SEMICOL_SEP
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+	* COMMA
+
+
+==================================================
+
+ENTRY #557
+--------------------
+Original text: <entry source_id="ofhrēowan"><form>ofhrēowan</form>(<form>of·hrēowan</form>) 7 pity<meta>wg.</meta>—<meta>imper. wdg.</meta>; excite pity<meta>wd. of pers</meta>.</entry>
+Cleaned text: ofhrēowan ( of·hrēowan ) 7 pity wg. — imper. wdg.; excite pity wd. of pers.
+
+Error: Unexpected error: No terminal matches 'e' in the current parser context, at line 1 col 110
+
+/form>) 7 pity<meta>wg.</meta>—<meta>imper. wdg.</meta>; excite pity<meta>wd. of
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* NODOTGEN
+	* PERS
+	* COMMA
+	* USGFREQ
+	* USGTEMP
+	* DGR
+	* __ANON_11
+	* QM
+	* LP
+	* TNS
+	* POS
+	* __ANON_2
+	* VALEN
+	* MEANINGTYPE
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* POET_SYMB
+	* GEN
+	* LBL
+	* USGLBL
+	* CASE
+	* RP
+
+
+==================================================
+
+ENTRY #568
+--------------------
+Original text: <entry source_id="oflysted"><form>oflysted</form>(<form>of·lysted</form>),<form>-lyst</form>desirous<meta>wg., w. sbj</meta>.</entry>
+Cleaned text: oflysted ( of·lysted ), -lyst desirous wg., w. sbj.
+
+Error: Unexpected error: No terminal matches 's' in the current parser context, at line 1 col 115
+
+<form>-lyst</form>desirous<meta>wg., w. sbj</meta>.</entry>
+                                        ^
+Expected one of: 
+	* USGLBL
+	* CASE
+	* POS
+
+
+==================================================
+
+ENTRY #575
+--------------------
+Original text: <entry source_id="ofost"><form>ofost</form>,<form>of(e)st</form>,<form>oef-</form>,<form>o</form>†<meta>f.</meta>speed, haste, hastening on —<expr>~ is sēlest</expr><meta>w. ger.</meta>the quicker the better.<form>ofstum</form>hastily [<form>of</form>,<form>ēst</form>].</entry>
+Cleaned text: ofost, of(e)st, oef-, o † f. speed, haste, hastening on — ~ is sēlest w. ger. the quicker the better. ofstum hastily [of, ēst].
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 166
+
+, hastening on —<expr>~ is sēlest</expr><meta>w. ger.</meta>the quicker the bett
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* LP
+	* SEMICOL_SEP
+	* LSQBR
+	* COMMA
+	* GLOSS
+	* __ANON_0
+	* COL_SEP
+	* TRANSLATION
+	* QM
+	* __ANON_14
+	* __ANON_15
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #581
+--------------------
+Original text: <entry source_id="ofscēotan"><form>ofscēotan</form>(<form>of·scēotan</form>) 7 shoot to death;<meta>ptc.</meta><form>ofscoten</form>elf-shot, (cattle) suffering from distension of the stomach.</entry>
+Cleaned text: ofscēotan ( of·scēotan ) 7 shoot to death; ptc. ofscoten elf-shot, (cattle) suffering from distension of the stomach.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 112
+
+orm>) 7 shoot to death;<meta>ptc.</meta><form>ofscoten</form>elf-shot, (cattle) 
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* USGTEMP
+	* __ANON_10
+	* LP
+	* DIALECT
+	* GLOSS
+	* MEANINGTYPE
+	* POET_SYMB
+	* TRANSLATION
+	* QM
+	* LBL
+	* USGLBL
+	* __ANON_14
+	* __ANON_15
+
+
+==================================================
+
+ENTRY #584
+--------------------
+Original text: <entry source_id="ofsēon"><form>ofsēon</form>(<form>of·sēon</form>) 5 see<meta>wa. or</meta><expr>hwǣr</expr><meta>w. indc</meta>.</entry>
+Cleaned text: ofsēon ( of·sēon ) 5 see wa. or hwǣr w. indc.
+
+Error: Unexpected error: No terminal matches 'o' in the current parser context, at line 1 col 84
+
+m>(<form>of·sēon</form>) 5 see<meta>wa. or</meta><expr>hwǣr</expr><meta>w. indc<
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* PERS
+	* COMMA
+	* CONSTR
+	* BAR
+	* DGR
+	* SEMICOL_SEP
+	* __ANON_11
+	* POS
+	* TNS
+	* EM_DASH
+	* LSQBR
+	* VALEN
+	* COL_SEP
+	* DOT_SEP
+	* PTC
+	* DECL
+	* __ANON_8
+	* MOOD
+	* __ANON_0
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+
+ENTRY #599
+--------------------
+Original text: <entry source_id="ofstandan"><form>ofstandan</form>(<form>of·stand|an</form>) 2<meta>tr.</meta>restore, make restitution Gl. ||<meta>intr.</meta>stick fast, remain unmoved —<meta>ptc.</meta><form>~en</form>unmoved.</entry>
+Cleaned text: ofstandan ( of·stand|an ) 2 tr. restore, make restitution Gl. || intr. stick fast, remain unmoved — ptc. ~en unmoved.
+
+Error: Unexpected error: No terminal matches '|' in the current parser context, at line 1 col 126
+
+tr.</meta>restore, make restitution Gl. ||<meta>intr.</meta>stick fast, remain u
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #603
+--------------------
+Original text: <entry source_id="ofgestignes"><form>of</form><span class="entryPrefix">ge</span><form>stignes</form>(<form>of</form><span class="entryPrefix">ge</span><form>·stignes</form>)<meta>f.</meta>descent.</entry>
+Cleaned text: of ge stignes ( of ge ·stignes ) f. descent.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 47
+
+ source_id="ofgestignes"><form>of</form><span class=entryPrefix>ge</span><form>s
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #607
+--------------------
+Original text: <entry source_id="oft"><form>oft</form><meta>av., cpv.</meta><form>~st</form>often.</entry>
+Cleaned text: oft av., cpv. ~st often.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 55
+
+id="oft"><form>oft</form><meta>av., cpv.</meta><form>~st</form>often.</entry>
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #622
+--------------------
+Original text: <entry source_id="ofþīnan"><form>ofþīnan</form>(<form>of·þīnan</form>) 6 —<form>ofþinen</form>moist, damp.</entry>
+Cleaned text: ofþīnan ( of·þīnan ) 6 — ofþinen moist, damp.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 75
+
+fþīnan</form>(<form>of·þīnan</form>) 6 —<form>ofþinen</form>moist, damp.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_8
+
+
+==================================================
+
+ENTRY #628
+--------------------
+Original text: <entry source_id="ofþyncan"><form>ofþyncan</form>(<form>of·þyncan</form>)<meta>impers. wdg., w. indc.</meta>be displeased, weary of.</entry>
+Cleaned text: ofþyncan ( of·þyncan ) impers. wdg., w. indc. be displeased, weary of.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 102
+
+ncan</form>)<meta>impers. wdg., w. indc.</meta>be displeased, weary of.</entry>
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #629
+--------------------
+Original text: <entry source_id="ofþyrst"><form>ofþyrst</form>,<form>ofþyrsted</form>(<form>of·þyrst(ed)</form>) thirsty, thirsting for<meta>wg.</meta><meta>or</meta><expr>æfter</expr>.</entry>
+Cleaned text: ofþyrst, ofþyrsted ( of·þyrst(ed) ) thirsty, thirsting for wg. or æfter.
+
+Error: Unexpected error: No terminal matches 'o' in the current parser context, at line 1 col 143
+
+sty, thirsting for<meta>wg.</meta><meta>or</meta><expr>æfter</expr>.</entry>
+                                        ^
+Expected one of: 
+	* DECL
+	* DGR
+	* VALEN
+	* MOOD
+	* LBL
+	* USGLBL
+	* TNS
+	* PERS
+	* PTC
+	* CONSTR
+
+
+==================================================
+
+ENTRY #651
+--------------------
+Original text: <entry source_id="ōlyhtword"><form>ōlyhtword</form>(<form>ōlyht-word</form>)<meta>once</meta><meta>n.</meta>flattery.<meta>Cp.</meta><form>ōleccan</form>.</entry>
+Cleaned text: ōlyhtword ( ōlyht-word ) once n. flattery. Cp. ōleccan.
+
+Error: Unexpected error: No terminal matches 'C' in the current parser context, at line 1 col 124
+
+nce</meta><meta>n.</meta>flattery.<meta>Cp.</meta><form>ōleccan</form>.</entry>
+                                        ^
+Expected one of: 
+	* DIALECT
+	* NODOTGEN
+	* PERS
+	* USGFREQ
+	* USGTEMP
+	* DGR
+	* TNS
+	* POS
+	* VALEN
+	* MEANINGTYPE
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* POET_SYMB
+	* GEN
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+
+ENTRY #658
+--------------------
+Original text: <entry source_id="on"><form>on</form><meta>prp.</meta><meta>w. a, d, i.</meta>|<meta>place, motion</meta>in, on, into, on to, to, among.<meta>Also met.</meta>:<expr>on Englisc</expr>in English;<expr>on his geweald onfeng</expr>|<meta>time</meta>in, at, during |<meta>instrumental</meta>:<expr>wurdon on flēame generede</expr>;<expr>on Godes naman!</expr>|<meta>defining</meta>:<expr>þæt gafol biþ on dēora fellum</expr>;<meta>attribute</meta>;<expr>on næddran hīwe</expr>(form) |<meta>hostility</meta>:<expr>rǣdan on hīe</expr>plot against |<meta>change to</meta>, into:<expr>of Lædene on Englisc āwendan</expr>translate |<meta>object of verb</meta>:<expr>on Gode trūwian</expr>;<expr>lōcode on hine</expr>|<meta>to form adverbs</meta>:<expr>on ōþre wīsan</expr>in another way;<expr>tōdǣlan on fēower</expr>into four parts.</entry>
+Cleaned text: on prp. w. a, d, i. | place, motion in, on, into, on to, to, among. Also met.: on Englisc in English; on his geweald onfeng | time in, at, during | instrumental: wurdon on flēame generede; on Godes naman! | defining: þæt gafol biþ on dēora fellum; attribute; on næddran hīwe (form) | hostility: rǣdan on hīe plot against | change to, into: of Lædene on Englisc āwendan translate | object of verb: on Gode trūwian; lōcode on hine | to form adverbs: on ōþre wīsan in another way; tōdǣlan on fēower into four parts.
+
+Error: Unexpected error: No terminal matches 'd' in the current parser context, at line 1 col 67
+
+m>on</form><meta>prp.</meta><meta>w. a, d, i.</meta>|<meta>place, motion</meta>i
+                                        ^
+Expected one of: 
+	* USGLBL
+	* __ANON_2
+
+
+==================================================
+
+ENTRY #668
+--------------------
+Original text: <entry source_id="toll"><form>toll</form><meta>n.</meta>tax, toll; toll-rights; freedom from toll; money due for rent, passage-money, fare, &amp;c.; tax-gathering, toll-house.</entry>
+Cleaned text: toll n. tax, toll; toll-rights; freedom from toll; money due for rent, passage-money, fare, &c.; tax-gathering, toll-house.
+
+Error: Unexpected error: No terminal matches ';' in the current parser context, at line 1 col 144
+
+y due for rent, passage-money, fare, &c.; tax-gathering, toll-house.</entry>
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #680
+--------------------
+Original text: <entry source_id="tōmeldian"><form>tōmeldian</form>(<form>tō·meldian</form>)*, (<expr>hē</expr>)<expr>tōmældeþ</expr>†<meta>once</meta>destroy (peace) by tale-bearing.</entry>
+Cleaned text: tōmeldian ( tō·meldian )*, ( hē ) tōmældeþ † once destroy (peace) by tale-bearing.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 81
+
+dian</form>(<form>tō·meldian</form>)*, (<expr>hē</expr>)<expr>tōmældeþ</expr>†<m
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* QM
+
+
+==================================================
+
+ENTRY #681
+--------------------
+Original text: <entry source_id="tōmiddes"><form>tōmiddes</form>(<form>tō·middes</form>)<meta>prp. wd.</meta>in the midst of.</entry>
+Cleaned text: tōmiddes ( tō·middes ) prp. wd. in the midst of.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 88
+
+m>(<form>tō·middes</form>)<meta>prp. wd.</meta>in the midst of.</entry>
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #697
+--------------------
+Original text: <entry source_id="torht"><form>torht</form>(†) bright; beautiful; illustrious.</entry>
+Cleaned text: torht (†) bright; beautiful; illustrious.
+
+Error: Unexpected error: No terminal matches '†' in the current parser context, at line 1 col 45
+
+ry source_id="torht"><form>torht</form>(†) bright; beautiful; illustrious.</entr
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* __ANON_2
+	* QM
+
+
+==================================================
+
+ENTRY #706
+--------------------
+Original text: <entry source_id="torn"><form>torn</form>(†) I.<meta>m.</meta>anger, indignation; grief. II.<meta>aj.</meta>grievous.</entry>
+Cleaned text: torn (†) I. m. anger, indignation; grief. II. aj. grievous.
+
+Error: Unexpected error: No terminal matches '†' in the current parser context, at line 1 col 43
+
+ntry source_id="torn"><form>torn</form>(†) I.<meta>m.</meta>anger, indignation; 
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* __ANON_2
+	* QM
+
+
+==================================================
+
+ENTRY #721
+--------------------
+Original text: <entry source_id="tōsāwan"><form>tōsāwan</form>(<form>tō·sāwan</form>) I<meta>tr.</meta>disperse; disseminate (doctrine).</entry>
+Cleaned text: tōsāwan ( tō·sāwan ) I tr. disperse; disseminate (doctrine).
+
+Error: Unexpected error: No terminal matches 'd' in the current parser context, at line 1 col 89
+
+<form>tō·sāwan</form>) I<meta>tr.</meta>disperse; disseminate (doctrine).</entry
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* __ANON_10
+	* LSQBR
+	* SEMICOL_SEP
+	* __ANON_0
+	* COL_SEP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #725
+--------------------
+Original text: <entry source_id="tōscādan"><form>tōscādan</form>(<form>tō·scād|an</form>),<form>ēa</form>I b,<meta>also prt.</meta><form>~de</form>divide, separate,<meta>also met.</meta>; disperse,<meta>also met.</meta>; make a distinction, make distinct; discriminate, discern; decide, judge; dispose, appoint<meta>lN.</meta>; expound<meta>lN.</meta>||<meta>intr.</meta>differ.</entry>
+Cleaned text: tōscādan ( tō·scād|an ), ēa I b, also prt. ~de divide, separate, also met.; disperse, also met.; make a distinction, make distinct; discriminate, discern; decide, judge; dispose, appoint lN.; expound lN. || intr. differ.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 117
+
+form>ēa</form>I b,<meta>also prt.</meta><form>~de</form>divide, separate,<meta>a
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* __ANON_10
+	* LSQBR
+	* SEMICOL_SEP
+	* __ANON_0
+	* COL_SEP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #728
+--------------------
+Original text: <entry source_id="tōgescādan"><form>tōgescādan</form>(<form>tōge·scādan</form>)*,<form>ēa</form>I<meta>lN.</meta>expound.</entry>
+Cleaned text: tōgescādan ( tōge·scādan )*, ēa I lN. expound.
+
+Error: Unexpected error: No terminal matches 'e' in the current parser context, at line 1 col 114
+
+form>)*,<form>ēa</form>I<meta>lN.</meta>expound.</entry>
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* __ANON_10
+	* LSQBR
+	* SEMICOL_SEP
+	* __ANON_0
+	* COL_SEP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #733
+--------------------
+Original text: <entry source_id="tōsciftan"><form>tōsciftan</form>(<form>tō·sciftan</form>)<meta>L. tr.</meta>divide (troops).</entry>
+Cleaned text: tōsciftan ( tō·sciftan ) L. tr. divide (troops).
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 89
+
+rm>(<form>tō·sciftan</form>)<meta>L. tr.</meta>divide (troops).</entry>
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #763
+--------------------
+Original text: <entry source_id="tōstregdan"><form>tōstregdan</form>(<form>tō·stregdan</form>),<form>-strēdan</form>3;<form>-stręgdan</form>,<form>-strēdan</form>wk.<meta>tr.</meta>scatter; destroy ||<meta>intr.</meta>be scattered.</entry>
+Cleaned text: tōstregdan ( tō·stregdan ), -strēdan 3; -stręgdan, -strēdan wk. tr. scatter; destroy || intr. be scattered.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 104
+
+stregdan</form>),<form>-strēdan</form>3;<form>-stręgdan</form>,<form>-strēdan</f
+                                        ^
+Expected one of: 
+	* LP
+	* SEMICOL_SEP
+	* __ANON_10
+	* COMMA
+
+
+==================================================
+
+ENTRY #765
+--------------------
+Original text: <entry source_id="tōswāpan"><form>tōswāpan</form>(<form>tō·swāpan</form>) I<meta>tr.</meta>disperse (flame).</entry>
+Cleaned text: tōswāpan ( tō·swāpan ) I tr. disperse (flame).
+
+Error: Unexpected error: No terminal matches 'd' in the current parser context, at line 1 col 92
+
+form>tō·swāpan</form>) I<meta>tr.</meta>disperse (flame).</entry>
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* __ANON_10
+	* LSQBR
+	* SEMICOL_SEP
+	* __ANON_0
+	* COL_SEP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #771
+--------------------
+Original text: <entry source_id="totrida"><form>totrida</form>(<form>tot-rida</form>)<meta>m.</meta>swing (?), see-saw (?) Gl.</entry>
+Cleaned text: totrida ( tot-rida ) m. swing (?), see-saw (?) Gl.
+
+Error: Unexpected error: No terminal matches ',' in the current parser context, at line 1 col 95
+
+tot-rida</form>)<meta>m.</meta>swing (?), see-saw (?) Gl.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* __ANON_15
+	* USGFREQ
+	* BAR
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* EM_DASH
+	* LSQBR
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* DOT_SEP
+	* __ANON_8
+	* __ANON_0
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #795
+--------------------
+Original text: <entry source_id="tōþęnian"><form>tōþęnian</form>(<form>tō·þęn|ian</form>).</entry>
+Cleaned text: tōþęnian ( tō·þęn|ian ).
+
+Error: Unexpected error: No terminal matches '.' in the current parser context, at line 1 col 75
+
+tōþęnian</form>(<form>tō·þęn|ian</form>).</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* __ANON_14
+	* LP
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #797
+--------------------
+Original text: <entry source_id="tōgeþēodd"><form>tō</form><span class="entryPrefix">ge</span><form>þēodd</form>,<form>tō</form><span class="entryPrefix">ge</span><form>þēoded</form>(<form>tō-</form><span class="entryPrefix">ge</span><form>þēod(e)d</form>) adjacent Bd.; adhering Gl.</entry>
+Cleaned text: tō ge þēodd, tō ge þēoded ( tō- ge þēod(e)d ) adjacent Bd.; adhering Gl.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 45
+
+ry source_id="tōgeþēodd"><form>tō</form><span class=entryPrefix>ge</span><form>þ
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #804
+--------------------
+Original text: <entry source_id="tow"><form>tow</form>.</entry>
+Cleaned text: tow.
+
+Error: Unexpected error: No terminal matches '.' in the current parser context, at line 1 col 40
+
+<entry source_id="tow"><form>tow</form>.</entry>
+                                       ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #810
+--------------------
+Original text: <entry source_id="tōweard"><form>tōweard</form>(<form>tō-weard</form>),<form>a</form>,<form>o</form>,<form>e</form>I.<meta>aj.</meta>facing; approaching | future, is to come<meta>or</meta>happen, coming; imminent. II.<meta>av., sometimes used where we should expect the aj.</meta>approaching; future, imminent. III.<meta>prp.</meta><meta>w. g., d.</meta>towards.<meta>Often tmesis:</meta><expr>tō þǣre sunnan weard</expr>.</entry>
+Cleaned text: tōweard ( tō-weard ), a, o, e I. aj. facing; approaching | future, is to come or happen, coming; imminent. II. av., sometimes used where we should expect the aj. approaching; future, imminent. III. prp. w. g., d. towards. Often tmesis: tō þǣre sunnan weard.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 274
+
+imes used where we should expect the aj.</meta>approaching; future, imminent. II
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* ROM_NUM
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #811
+--------------------
+Original text: <entry source_id="tōweardes"><form>~es</form><meta>av., prp. wd.</meta>towards.<meta>Gen. follows its word</meta>.</entry>
+Cleaned text: ~es av., prp. wd. towards. Gen. follows its word.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 65
+
+des"><form>~es</form><meta>av., prp. wd.</meta>towards.<meta>Gen. follows its wo
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #817
+--------------------
+Original text: <entry source_id="tōgewegen"><form>tō</form><span class="entryPrefix">ge</span><form>wegen</form>(<form>tō-</form><span class="entryPrefix">ge</span><form>wegen</form>) applied Bd.</entry>
+Cleaned text: tō ge wegen ( tō- ge wegen ) applied Bd.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 45
+
+ry source_id="tōgewegen"><form>tō</form><span class=entryPrefix>ge</span><form>w
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #822
+--------------------
+Original text: <entry source_id="tōwiþere"><form>tōwiþere</form>(<form>tō·wiþere</form>) †,<form>-wiþre</form><meta>prp.</meta><meta>w. a., d.</meta>against; in answer to.</entry>
+Cleaned text: tōwiþere ( tō·wiþere ) †, -wiþre prp. w. a., d. against; in answer to.
+
+Error: Unexpected error: No terminal matches 'd' in the current parser context, at line 1 col 126
+
+þre</form><meta>prp.</meta><meta>w. a., d.</meta>against; in answer to.</entry>
+                                        ^
+Expected one of: 
+	* USGLBL
+	* __ANON_2
+
+
+==================================================
+
+ENTRY #823
+--------------------
+Original text: <entry source_id="tōworpennes"><form>tōworpennes</form>(<form>tō·worpennes</form>),<form>-worpnes</form>,<form>-ednes</form>,<meta>lN.</meta><form>-wyrp-</form><meta>f.</meta>dispersion; destruction;<meta>lN.</meta>expulsion [<form>tōweorpan</form>].</entry>
+Cleaned text: tōworpennes ( tō·worpennes ), -worpnes, -ednes, lN. -wyrp- f. dispersion; destruction; lN. expulsion [tōweorpan].
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 153
+
+ednes</form>,<meta>lN.</meta><form>-wyrp-</form><meta>f.</meta>dispersion; destr
+                                        ^
+Expected one of: 
+	* __ANON_3
+
+
+==================================================
+
+ENTRY #830
+--------------------
+Original text: <entry source_id="træppe"><form>træpp</form><span class="doubtfulEnding">e</span>*,<form>e</form><meta>f.</meta>trap.</entry>
+Cleaned text: træpp e *, e f. trap.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 45
+
+ry source_id="træppe"><form>træpp</form><span class="doubtfulEnding">e</span>*,<
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #847
+--------------------
+Original text: <entry source_id="trede"><form>tred</form><span class="doubtfulEnding">e</span>[<form>e</form>=<form>ǣ</form>?]†<meta>once</meta>firm to tread on (<meta>of</meta>sea).</entry>
+Cleaned text: tred e [e = ǣ ?]† once firm to tread on ( of sea).
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 43
+
+ntry source_id="trede"><form>tred</form><span class="doubtfulEnding">e</span>[<f
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #849
+--------------------
+Original text: <entry source_id="trega"><form>trega</form>(<form>treg|a</form>) (†)<meta>m.</meta>grief; affliction.</entry>
+Cleaned text: trega ( treg|a ) (†) m. grief; affliction.
+
+Error: Unexpected error: No terminal matches '†' in the current parser context, at line 1 col 67
+
+form>trega</form>(<form>treg|a</form>) (†)<meta>m.</meta>grief; affliction.</ent
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* QM
+
+
+==================================================
+
+ENTRY #851
+--------------------
+Original text: <entry source_id="trehing"><form>trehing</form>(?)<meta>m.</meta>third part of a shire, Riding.<meta>Cp.</meta><form>þrihing</form>.</entry>
+Cleaned text: trehing (?) m. third part of a shire, Riding. Cp. þrihing.
+
+Error: Unexpected error: No terminal matches 'C' in the current parser context, at line 1 col 102
+
+eta>third part of a shire, Riding.<meta>Cp.</meta><form>þrihing</form>.</entry>
+                                        ^
+Expected one of: 
+	* DIALECT
+	* NODOTGEN
+	* PERS
+	* USGFREQ
+	* USGTEMP
+	* DGR
+	* TNS
+	* POS
+	* VALEN
+	* MEANINGTYPE
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* POET_SYMB
+	* GEN
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+
+ENTRY #855
+--------------------
+Original text: <entry source_id="trendlian"><form>trendlian</form>(<form>trendl|ian</form>) —<form>~ed</form>made round.</entry>
+Cleaned text: trendlian ( trendl|ian ) — ~ed made round.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 79
+
+ndlian</form>(<form>trendl|ian</form>) —<form>~ed</form>made round.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_8
+
+
+==================================================
+
+ENTRY #862
+--------------------
+Original text: <entry source_id="trēowwæstm"><form>~wæstm</form><meta>m. vL.</meta>fruit of trees.</entry>
+Cleaned text: ~wæstm m. vL. fruit of trees.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 62
+
+owwæstm"><form>~wæstm</form><meta>m. vL.</meta>fruit of trees.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* __ANON_15
+	* COMMA
+	* USGFREQ
+	* USGTEMP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* LSQBR
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* __ANON_8
+	* __ANON_0
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #868
+--------------------
+Original text: <entry source_id="trēow2"><form>trēow</form>,<form>ȳ</form><meta>sometimes in pl. w. sg. meaning f.</meta>truth (to promise), faith:<expr>~e healdan, habban</expr>keep faith; fidelity, loyalty; grace, favour; engagement, agreement; trust, belief.</entry>
+Cleaned text: trēow, ȳ sometimes in pl. w. sg. meaning f. truth (to promise), faith: ~e healdan, habban keep faith; fidelity, loyalty; grace, favour; engagement, agreement; trust, belief.
+
+Error: Unexpected error: No terminal matches 's' in the current parser context, at line 1 col 86
+
+<form>ȳ</form><meta>sometimes in pl. w. sg. meaning f.</meta>truth (to promise),
+                                        ^
+Expected one of: 
+	* MEANINGTYPE
+	* DIALECT
+
+
+==================================================
+
+ENTRY #873
+--------------------
+Original text: <entry source_id="getrēowlēas"><form>(</form><span class="entryPrefix">ge</span><form>)~lēas</form>faithless; infidel.</entry>
+Cleaned text: ( ge )~lēas faithless; infidel.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 46
+
+y source_id="getrēowlēas"><form>(</form><span class=entryPrefix>ge</span><form>)
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #874
+--------------------
+Original text: <entry source_id="getrēowlēasnes"><form>(</form><span class="entryPrefix">ge</span><form>)~lēasnes</form><meta>f.</meta>faithlessness; unbelief, heresy.</entry>
+Cleaned text: ( ge )~lēasnes f. faithlessness; unbelief, heresy.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 49
+
+ource_id="getrēowlēasnes"><form>(</form><span class=entryPrefix>ge</span><form>)
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #876
+--------------------
+Original text: <entry source_id="getrēowlīce"><form>(</form><span class="entryPrefix">ge</span><form>)~līce</form><meta>av.</meta>faithfully.</entry>
+Cleaned text: ( ge )~līce av. faithfully.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 46
+
+y source_id="getrēowlīce"><form>(</form><span class=entryPrefix>ge</span><form>)
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #885
+--------------------
+Original text: <entry source_id="getrēowe"><span class="entryPrefix">ge</span><form>trēowe</form>=<span class="entryPrefix">ge</span><form>trīewe</form>.</entry>
+Cleaned text: ge trēowe = ge trīewe.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 82
+
+ntryPrefix>ge</span><form>trēowe</form>=<span class=entryPrefix>ge</span><form>t
+                                        ^
+Expected one of: 
+	* __ANON_2
+	* COMMA
+	* __ANON_11
+
+
+==================================================
+
+ENTRY #887
+--------------------
+Original text: <entry source_id="trēowsian"><form>trēowsian</form>,<form>ȳ</form>pledge oneself<meta>w.</meta><expr>wiþ</expr><meta>a.</meta>|<meta>rfl.</meta>pledge oneself<meta>w.</meta><expr>wiþ</expr><meta>a.</meta>; clear oneself =<form>trīewan</form>.</entry>
+Cleaned text: trēowsian, ȳ pledge oneself w. wiþ a. | rfl. pledge oneself w. wiþ a.; clear oneself = trīewan.
+
+Error: Unexpected error: No terminal matches 'a' in the current parser context, at line 1 col 118
+
+elf<meta>w.</meta><expr>wiþ</expr><meta>a.</meta>|<meta>rfl.</meta>pledge onesel
+                                        ^
+Expected one of: 
+	* DECL
+	* DGR
+	* VALEN
+	* MOOD
+	* LBL
+	* USGLBL
+	* TNS
+	* PERS
+	* PTC
+	* CONSTR
+
+
+==================================================
+
+ENTRY #888
+--------------------
+Original text: <entry source_id="getrēowþ"><form>(</form><span class="entryPrefix">ge</span><form>)trēowþ</form>,<form>īe</form><meta>f., often in pl. w. sg. meaning</meta>good faith; fidelity; agreement, covenant, terms (of capitulation).</entry>
+Cleaned text: ( ge )trēowþ, īe f., often in pl. w. sg. meaning good faith; fidelity; agreement, covenant, terms (of capitulation).
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 43
+
+ntry source_id="getrēowþ"><form>(</form><span class=entryPrefix>ge</span><form>)
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #889
+--------------------
+Original text: <entry source_id="tręppan"><form>tręppan</form>*,<expr>(hē) trępeþ</expr><meta>once</meta>tread<meta>lK</meta>Gl.</entry>
+Cleaned text: tręppan *, (hē) trępeþ once tread lK Gl.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 74
+
+tręppan</form>*,<expr>(hē) trępeþ</expr><meta>once</meta>tread<meta>lK</meta>Gl.
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* LP
+	* SEMICOL_SEP
+	* LSQBR
+	* COMMA
+	* GLOSS
+	* __ANON_0
+	* COL_SEP
+	* TRANSLATION
+	* QM
+	* __ANON_14
+	* __ANON_15
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #890
+--------------------
+Original text: <entry source_id="tręppe"><form>tręppe</form>= *<form>træppe</form>trap.</entry>
+Cleaned text: tręppe = * træppe trap.
+
+Error: Unexpected error: No terminal matches '*' in the current parser context, at line 1 col 48
+
+source_id="tręppe"><form>tręppe</form>= *<form>træppe</form>trap.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_2
+	* COMMA
+	* __ANON_11
+
+
+==================================================
+
+ENTRY #891
+--------------------
+Original text: <entry source_id="getricce"><span class="entryPrefix">ge</span><form>tricce</form><meta>once wd.</meta>contented with, adhering to (regulations) [<form>i</form>=<form>y</form>?<meta>Cp.</meta><form>getryccan</form>].</entry>
+Cleaned text: ge tricce once wd. contented with, adhering to (regulations) [i = y ? Cp. getryccan].
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 95
+
+</span><form>tricce</form><meta>once wd.</meta>contented with, adhering to (regu
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* __ANON_8
+	* USGTEMP
+	* __ANON_10
+	* DIALECT
+	* LSQBR
+	* __ANON_0
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* LP
+
+
+==================================================
+
+ENTRY #892
+--------------------
+Original text: <entry source_id="trīewan"><form>trīewan</form>(<form>trīew|an</form>),<form>ēo</form>trust in<meta>w. d.</meta>,<expr>on</expr><meta>d.</meta>; make credible;<form>ge-</form>persuade, suggest<meta>lN.</meta>|<meta>rfl.</meta>clear oneself (of accusation)<meta>wg.</meta>[<form>trēow</form>].</entry>
+Cleaned text: trīewan ( trīew|an ), ēo trust in w. d., on d.; make credible; ge- persuade, suggest lN. | rfl. clear oneself (of accusation) wg. [trēow].
+
+Error: Unexpected error: No terminal matches ',' in the current parser context, at line 1 col 113
+
+form>ēo</form>trust in<meta>w. d.</meta>,<expr>on</expr><meta>d.</meta>; make cr
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* __ANON_10
+	* LSQBR
+	* SEMICOL_SEP
+	* __ANON_0
+	* COL_SEP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #894
+--------------------
+Original text: <entry source_id="getrīewe"><form>(</form><span class="entryPrefix">ge</span><form>)trīewe</form>,<form>ēo</form>faithful, trusty, honest.</entry>
+Cleaned text: ( ge )trīewe, ēo faithful, trusty, honest.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 43
+
+ntry source_id="getrīewe"><form>(</form><span class=entryPrefix>ge</span><form>)
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #898
+--------------------
+Original text: <entry source_id="trimes"><form>trimes</form>,<form>try-</form>,<form>tre-</form>,<meta>pl. vE.</meta><form>trimsas</form>,<form>y</form><meta>mf.</meta>;<form>trymesse</form><meta>f.</meta>;<form>þrims</form>,<form>y</form>a weight (drachm?); coin; a coin of the value of threepence [<meta>lLt.</meta><form>tremissis</form>,<form>tremisia</form>].</entry>
+Cleaned text: trimes, try-, tre-, pl. vE. trimsas, y mf.; trymesse f.; þrims, y a weight (drachm?); coin; a coin of the value of threepence [lLt. tremissis, tremisia].
+
+Error: Unexpected error: No terminal matches 'v' in the current parser context, at line 1 col 93
+
+try-</form>,<form>tre-</form>,<meta>pl. vE.</meta><form>trimsas</form>,<form>y</
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* NODOTGEN
+	* PERS
+	* COMMA
+	* DGR
+	* __ANON_11
+	* QM
+	* LP
+	* TNS
+	* POS
+	* __ANON_2
+	* VALEN
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* GEN
+	* LBL
+	* CASE
+	* RP
+
+
+==================================================
+
+ENTRY #899
+--------------------
+Original text: <entry source_id="trinde"><form>trind</form><span class="doubtfulEnding">e</span>(<form>trind|</form><span class="doubtfulEnding">e</span>)<meta>f.</meta>round lump.</entry>
+Cleaned text: trind e ( trind| e ) f. round lump.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 45
+
+ry source_id="trinde"><form>trind</form><span class="doubtfulEnding">e</span>(<f
+                                        ^
+Expected one of: 
+	* LPAR
+	* __ANON_10
+	* DIALECT
+	* REFLBL
+	* __ANON_15
+	* COMMA
+	* SOURCE
+	* USGFREQ
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* __ANON_2
+	* EM_DASH
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* VERB_INFL_TYPE
+	* ROM_NUM
+	* __ANON_8
+	* ASTERISK
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #915
+--------------------
+Original text: <entry source_id="trumian"><form>trumian</form>(<form>trum|ian</form>) recover (from illness);<form>ge-</form>make strong Gl.</entry>
+Cleaned text: trumian ( trum|ian ) recover (from illness); ge- make strong Gl.
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 103
+
+</form>) recover (from illness);<form>ge-</form>make strong Gl.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_3
+
+
+==================================================
+
+ENTRY #923
+--------------------
+Original text: <entry source_id="trūwian"><form>trūwian</form>(<form>trūw|ian</form>),<form>ēo</form>,<form>ȳ</form>,<meta>A.</meta><form>trūgian</form>trust in (person)<meta>w. d.</meta>,<expr>on</expr><meta>a.</meta>;<meta>wda.</meta>entrust<meta>lN.</meta>; trust in (thing)<meta>w. g.</meta>,<expr>be</expr><meta>d.</meta>,<expr>tō</expr><meta>d.</meta>; believe (confidently)<meta>w. sbj.</meta>; be true to<meta>wd.</meta>|<form>ge-</form>make treaty; plot |<meta>rfl.</meta>clear oneself =<form>trīewan</form>.</entry>
+Cleaned text: trūwian ( trūw|ian ), ēo, ȳ, A. trūgian trust in (person) w. d., on a.; wda. entrust lN.; trust in (thing) w. g., be d., tō d.; believe (confidently) w. sbj.; be true to wd. | ge- make treaty; plot | rfl. clear oneself = trīewan.
+
+Error: Unexpected error: No terminal matches ',' in the current parser context, at line 1 col 173
+
+form>trust in (person)<meta>w. d.</meta>,<expr>on</expr><meta>a.</meta>;<meta>wd
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* __ANON_10
+	* LSQBR
+	* SEMICOL_SEP
+	* __ANON_0
+	* COL_SEP
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #925
+--------------------
+Original text: <entry source_id="getryccan"><span class="entryPrefix">ge</span><form>tryccan</form>trust<meta>lN.</meta><meta>Cp.</meta><form>getricce</form>.</entry>
+Cleaned text: ge tryccan trust lN. Cp. getricce.
+
+Error: Unexpected error: No terminal matches 'C' in the current parser context, at line 1 col 110
+
+ryccan</form>trust<meta>lN.</meta><meta>Cp.</meta><form>getricce</form>.</entry>
+                                        ^
+Expected one of: 
+	* DECL
+	* DGR
+	* VALEN
+	* MOOD
+	* LBL
+	* USGLBL
+	* TNS
+	* PERS
+	* PTC
+	* CONSTR
+
+
+==================================================
+
+ENTRY #926
+--------------------
+Original text: <entry source_id="trym"><form>trym</form>†,<form>e</form>—<expr>fōtes ~</expr><meta>av.</meta>a foot’s length.</entry>
+Cleaned text: trym †, e — fōtes ~ av. a foot's length.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 79
+
+rm>†,<form>e</form>—<expr>fōtes ~</expr><meta>av.</meta>a foot's length.</entry>
+                                        ^
+Expected one of: 
+	* BAR
+	* __ANON_8
+	* EM_DASH
+	* LP
+	* LSQBR
+	* SEMICOL_SEP
+	* COMMA
+	* GLOSS
+	* __ANON_0
+	* COL_SEP
+	* TRANSLATION
+	* QM
+	* __ANON_14
+	* __ANON_15
+	* DOT_SEP
+
+
+==================================================
+
+ENTRY #927
+--------------------
+Original text: <entry source_id="getrym"><span class="entryPrefix">ge</span><form>trym</form>†<meta>once</meta>(<meta>n.</meta>) firmament.</entry>
+Cleaned text: ge trym † once ( n. ) firmament.
+
+Error: Unexpected error: No terminal matches '<' in the current parser context, at line 1 col 96
+
+pan><form>trym</form>†<meta>once</meta>(<meta>n.</meta>) firmament.</entry>
+                                        ^
+Expected one of: 
+	* QM
+
+
+==================================================
+
+ENTRY #931
+--------------------
+Original text: <entry source_id="trymman"><form>trymman</form>,<form>tryman</form>,<form>trymmian</form>make strong, build strongly; arrange, array (troops),<meta>also met.</meta>; encourage, exhort; confirm (agreement), corroborate; give (hostages) |<form>ge-</form><meta>rfl.</meta><meta>wg.</meta>recover from (illness) Bd. [<form>trum</form>].</entry>
+Cleaned text: trymman, tryman, trymmian make strong, build strongly; arrange, array (troops), also met.; encourage, exhort; confirm (agreement), corroborate; give (hostages) | ge- rfl. wg. recover from (illness) Bd. [trum].
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 245
+
+, corroborate; give (hostages) |<form>ge-</form><meta>rfl.</meta><meta>wg.</meta
+                                        ^
+Expected one of: 
+	* __ANON_3
+
+
+==================================================
+
+ENTRY #935
+--------------------
+Original text: <entry source_id="trymnes"><form>trymnes</form>,<form>trymenes</form>,<form>ge-</form><meta>f.</meta>firmness; firmament; prop,<meta>also met.</meta>;<form>ge-</form>arraying (army); confirmation; exhortation.</entry>
+Cleaned text: trymnes, trymenes, ge- f. firmness; firmament; prop, also met.; ge- arraying (army); confirmation; exhortation.
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 159
+
+nt; prop,<meta>also met.</meta>;<form>ge-</form>arraying (army); confirmation; e
+                                        ^
+Expected one of: 
+	* __ANON_3
+
+
+==================================================
+
+ENTRY #942
+--------------------
+Original text: <entry source_id="tū"><form>tū</form>,<meta>see</meta><form>twēgen</form>.</entry>
+Cleaned text: tū, see twēgen.
+
+Error: Unexpected error: No terminal matches 'e' in the current parser context, at line 1 col 46
+
+y source_id="tū"><form>tū</form>,<meta>see</meta><form>twēgen</form>.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* NODOTGEN
+	* PERS
+	* COMMA
+	* DGR
+	* __ANON_11
+	* QM
+	* LP
+	* TNS
+	* POS
+	* __ANON_2
+	* VALEN
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* GEN
+	* LBL
+	* CASE
+	* RP
+
+
+==================================================
+
+ENTRY #943
+--------------------
+Original text: <entry source_id="tūcian"><form>tūcian</form>adorn || ill-treat,<meta>gen. w. defining</meta><expr>tō</expr>:<expr>~ tō scame</expr>,<expr>~ tō ięrmþe</expr>.</entry>
+Cleaned text: tūcian adorn || ill-treat, gen. w. defining tō: ~ tō scame, ~ tō ięrmþe.
+
+Error: Unexpected error: No terminal matches 'g' in the current parser context, at line 1 col 71
+
+m>tūcian</form>adorn || ill-treat,<meta>gen. w. defining</meta><expr>tō</expr>:<
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* DECL
+	* USGTEMP
+	* DGR
+	* DIALECT
+	* VALEN
+	* MOOD
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* TNS
+	* PERS
+	* PTC
+	* CONSTR
+
+
+==================================================
+
+ENTRY #953
+--------------------
+Original text: <entry source_id="tūn"><form>tūn</form><meta>m.</meta>enclosure round house, yard, garden; manor, estate, farm —<expr>~es mann</expr>man living on a manor; village; town; dwelling,<meta>coll.</meta>the world:<expr>lenctentīma gǣþ tō ~e on vii. id. febr.</expr>comes, falls.</entry>
+Cleaned text: tūn m. enclosure round house, yard, garden; manor, estate, farm — ~es mann man living on a manor; village; town; dwelling, coll. the world: lenctentīma gǣþ tō ~e on vii. id. febr. comes, falls.
+
+Error: Unexpected error: No terminal matches 'c' in the current parser context, at line 1 col 187
+
+ a manor; village; town; dwelling,<meta>coll.</meta>the world:<expr>lenctentīma 
+                                        ^
+Expected one of: 
+	* USGFREQ
+	* DECL
+	* USGTEMP
+	* DGR
+	* DIALECT
+	* VALEN
+	* MOOD
+	* MEANINGTYPE
+	* POET_SYMB
+	* LBL
+	* USGLBL
+	* TNS
+	* PERS
+	* PTC
+	* CONSTR
+
+
+==================================================
+
+ENTRY #955
+--------------------
+Original text: <entry source_id="tūncerse"><form>~cerse</form>,<form>æ</form><form>~cressa</form><meta>m.</meta>nasturtium.</entry>
+Cleaned text: ~cerse, æ ~cressa m. nasturtium.
+
+Error: Unexpected error: No terminal matches '~' in the current parser context, at line 1 col 69
+
+<form>~cerse</form>,<form>æ</form><form>~cressa</form><meta>m.</meta>nasturtium.
+                                        ^
+Expected one of: 
+	* WORD
+
+
+==================================================
+
+ENTRY #956
+--------------------
+Original text: <entry source_id="tūncirice"><form>~cirice</form><meta>f.</meta>church in a tūn.</entry>
+Cleaned text: ~cirice f. church in a tūn.
+
+Error: Unexpected error: No terminal matches 'ū' in the current parser context, at line 1 col 78
+
+irice</form><meta>f.</meta>church in a tūn.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* __ANON_15
+	* USGFREQ
+	* BAR
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* EM_DASH
+	* LSQBR
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* DOT_SEP
+	* __ANON_8
+	* __ANON_0
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #960
+--------------------
+Original text: <entry source_id="tūnmann"><form>~mann</form><meta>m.</meta>man belonging to a tūn.</entry>
+Cleaned text: ~mann m. man belonging to a tūn.
+
+Error: Unexpected error: No terminal matches 'ū' in the current parser context, at line 1 col 81
+
+form><meta>m.</meta>man belonging to a tūn.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* __ANON_15
+	* USGFREQ
+	* BAR
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* EM_DASH
+	* LSQBR
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* DOT_SEP
+	* __ANON_8
+	* __ANON_0
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #966
+--------------------
+Original text: <entry source_id="tūnscipe"><form>~scipe</form><meta>m.</meta>inhabitants of a tūn.</entry>
+Cleaned text: ~scipe m. inhabitants of a tūn.
+
+Error: Unexpected error: No terminal matches 'ū' in the current parser context, at line 1 col 81
+
+</form><meta>m.</meta>inhabitants of a tūn.</entry>
+                                        ^
+Expected one of: 
+	* __ANON_10
+	* DIALECT
+	* __ANON_15
+	* USGFREQ
+	* BAR
+	* USGTEMP
+	* SEMICOL_SEP
+	* TRANSLATION
+	* QM
+	* LP
+	* __ANON_14
+	* EM_DASH
+	* LSQBR
+	* GLOSS
+	* MEANINGTYPE
+	* COL_SEP
+	* DOT_SEP
+	* __ANON_8
+	* __ANON_0
+	* POET_SYMB
+	* LBL
+	* USGLBL
+
+
+==================================================
+
+ENTRY #997
+--------------------
+Original text: <entry source_id="turnian"><form>turnian</form>(<form>turn|ian</form>)<meta>intr.</meta>turn, revolve; be giddy.<meta>Cp.</meta><form>tyrnan</form>[<meta>Fr.</meta>].</entry>
+Cleaned text: turnian ( turn|ian ) intr. turn, revolve; be giddy. Cp. tyrnan [Fr.].
+
+Error: Unexpected error: No terminal matches 'C' in the current parser context, at line 1 col 119
+
+tr.</meta>turn, revolve; be giddy.<meta>Cp.</meta><form>tyrnan</form>[<meta>Fr.<
+                                        ^
+Expected one of: 
+	* DIALECT
+	* NODOTGEN
+	* PERS
+	* USGFREQ
+	* USGTEMP
+	* DGR
+	* TNS
+	* POS
+	* VALEN
+	* MEANINGTYPE
+	* PTC
+	* NUM
+	* DECL
+	* MOOD
+	* POET_SYMB
+	* GEN
+	* LBL
+	* USGLBL
+	* CASE
+
+
+==================================================
+

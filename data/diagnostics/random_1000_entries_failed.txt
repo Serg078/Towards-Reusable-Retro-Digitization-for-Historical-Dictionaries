@@ -1,0 +1,2044 @@
+FAILED ENTRIES WITH ERROR MESSAGES
+==================================================
+Total entries processed: 1000
+Failed to parse: 59
+Failure rate: 5.90%
+==================================================
+
+ENTRY #6
+--------------------
+Original text: eorlic (1) = ierlic; (2) eorllic
+
+Error: Unexpected error: No terminal matches '(' in the current parser context, at line 1 col 22
+
+eorlic (1) = ierlic; (2) eorllic
+                     ^
+Expected one of: 
+	* CASE
+	* VALEN
+	* DGR
+	* SINGLECASE
+	* NUM
+	* DECL
+	* MOOD
+	* TNS
+	* NODOTGEN
+	* GEN
+	* PERS
+	* POS
+	* LBL
+
+
+==================================================
+
+ENTRY #16
+--------------------
+Original text: ūtlagu? f. _outlawry_. [_ON._ útlagi]
+
+Error: Unexpected error: No terminal matches 'ú' in the current parser context, at line 1 col 31
+
+ūtlagu? f. _outlawry_. [_ON._ útlagi]
+                              ^
+Expected one of: 
+	* LPAR
+	* WORD
+	* SEMICOL_SEP
+	* COMMA
+	* VIDE
+	* QM
+	* REFLBL
+	* LANG
+	* __ANON_6
+	* RSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #44
+--------------------
+Original text: burhwealda m. _burgess_, BH 40^31#b#.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 36
+
+burhwealda m. _burgess_, BH 40^31#b#.
+                                   ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #70
+--------------------
+Original text: ðēofsceaða m. _robber_, v. ANS 129·24n6.
+
+Error: Unexpected error: No terminal matches '6' in the current parser context, at line 1 col 39
+
+ðēofsceaða m. _robber_, v. ANS 129·24n6.
+                                      ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* NODOTGEN
+	* LP
+	* GEN
+	* SRCVAR
+	* SNS_POET_SYMB
+	* OEDREF
+	* EDCOMM
+	* COLON_SEP
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* COLLOC
+	* VALEN
+	* PARENXR
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* SUBST
+	* VIDE
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* ONEWORD
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* DOTSCOLLOC
+	* LSQB
+	* __ANON_2
+	* LBL
+
+
+==================================================
+
+ENTRY #84
+--------------------
+Original text: mūs f. gs. mūs, mūse, nap. mȳs ‘_mouse_,’ _Bo_; Æ; Mdf: _muscle (of the
+arm)_, _WW_ 158^6.
+
+Error: Unexpected error: No terminal matches '.' in the current parser context, at line 1 col 26
+
+mūs f. gs. mūs, mūse, nap. mȳs '_mouse_,' _Bo_; Æ; Mdf: _muscle (
+                         ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* ROM_NUM
+	* TRANSLATION
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* OEDREF
+	* SNS_POET_SYMB
+	* __ANON_3
+	* GE_OPT
+	* SPELLVAR
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* USGLBL
+	* REFLBL
+	* QM
+	* RP
+	* DECL
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #90
+--------------------
+Original text: iernan^3 (æ, i, y; rinnan) pret. 3 sg. arn, orn, pl. urnon; pp. urnen
+(±) _to run, move rapidly, hasten, flow, spread_, _Æ, AO, CP, Lcd, VPs_:
+_pursue_, _Bo, Ps_: _cause to move rapidly, turn, grind_, _AO, BH_: (+)
+_get to, attain, meet with_: (+) _occur (to one’s mind)_, GD: (+)
+_coagulate_, _Lcd_: (+) _grow up_. [‘_ern_’]
+
+Error: Unexpected error: No terminal matches 'æ' in the current parser context, at line 1 col 11
+
+iernan^3 (æ, i, y; rinnan) pret. 3 sg. arn, orn, p
+          ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* USGPREP
+	* NODOTGEN
+	* LP
+	* GEN
+	* GE_OPT
+	* COMPARE
+	* NUM
+	* AUTH
+	* SOURCE_NUM
+	* VALEN
+	* USGLBL
+	* VIDE
+	* DECL
+	* MOOD
+	* TNS
+	* VARIANT
+	* PERS
+	* POS
+	* COMMA
+	* SINGLECASE
+	* SOURCE
+	* LBL
+
+
+==================================================
+
+ENTRY #104
+--------------------
+Original text: +dēfe (doefe once, in NG) _befitting, suitable, proper_: _meek, gentle,
+kindly_. also adv.
+
+Error: Parse error: Unexpected end-of-input. Expected one of: 
+	* VERB_INFL_TYPE
+	* VERB_INFL_TYPE
+	* POS
+	* LBL
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* VALEN
+	* USGLBL
+	* DECL
+	* MOOD
+	* CASE
+	* TNS
+	* DGR
+	* NODOTGEN
+	* GEN
+	* NUM
+	* PERS
+	* SINGLECASE
+	* LSQB
+... (error message truncated - showing first 50 lines)
+
+==================================================
+
+ENTRY #115
+--------------------
+Original text: ǣr I. adv. comp. ǣror; sup. ǣrost, ǣr(e)st _‘ere,’ before that, soon,
+formerly, beforehand, previously, already, lately, till_; (comp.)
+_sooner, earlier_; (sup.) _just now, first of all_, _OET, Jn, El_:
+_early, prematurely_, _Gu, Mk_. on ǣr; ǣr ðissum _previously, formerly,
+beforehand_, _CP_. tō ǣr _too soon_. ǣr oððe æfter _sooner or later_.
+hwonne ǣr _how soon? when?_ hwēne ǣr _just before_. on ealne ǣrne mergen
+_very early in the morning_. ne ǣr ne siððan _neither sooner nor later_.
+ǣr and sið _at all times_. II. conj. _‘ere,’ before that, until_, Æ, AO,
+CP. ǣr ðam(ðe) _before_, _B_. III. prep. (w. d.) _before_. IV. adj. only
+in comp. and sup. (ǣrra, ǣrest) q.v. V. f. = ār f. VI. n. = ār n.
+
+Error: Unexpected error: No terminal matches 'h' in the current parser context, at line 1 col 374
+
+ or later_. hwonne ǣr _how soon? when?_ hwēne ǣr _just before_. on ealne ǣrne me
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* COLON_SEP
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* VIDE
+	* QM
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #126
+--------------------
+Original text: hyspan (e, i) pret. hyspde and hyspte _to mock, scorn, deride, revile_,
+AO. [hosp]
+
+Error: Unexpected error: No terminal matches 'h' in the current parser context, at line 1 col 32
+
+hyspan (e, i) pret. hyspde and hyspte _to mock, scorn, deride, revile_,
+                               ^
+Expected one of: 
+	* CASE
+	* POS
+	* DGR
+	* SINGLECASE
+	* QM
+	* NUM
+	* DECL
+	* MOOD
+	* TNS
+	* NODOTGEN
+	* GEN
+	* PERS
+	* VALEN
+	* LBL
+
+
+==================================================
+
+ENTRY #135
+--------------------
+Original text: [[Entry before author’s corrections:
+  floggettan _to fluctuate_. [flēogan] ]]
+
+Error: Unexpected error: No terminal matches '[' in the current parser context, at line 1 col 1
+
+[[Entry before author's corrections: flo
+^
+Expected one of: 
+	* GE_PREF
+	* GE_OPT
+	* LP
+	* WORD
+
+
+==================================================
+
+ENTRY #148
+--------------------
+Original text: burhstaðol m. _foundation of the wall of a_ ‘burg,’ #Lcd# 1·328^23.
+
+Error: Unexpected error: No terminal matches ''' in the current parser context, at line 1 col 45
+
+staðol m. _foundation of the wall of a_ 'burg,' #Lcd# 1·328^23.
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* COLON_SEP
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* VIDE
+	* QM
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #166
+--------------------
+Original text: sam- (= _together_) denotes union, combination, or agreement. [_ON._
+sam-]
+
+Error: Unexpected error: No terminal matches 'd' in the current parser context, at line 1 col 21
+
+sam- (= _together_) denotes union, combination, or agreement
+                    ^
+Expected one of: 
+	* GLOSS
+	* TRANSLATION
+	* QMSENSE
+	* USGLBL
+	* LP
+	* VALEN
+
+
+==================================================
+
+ENTRY #221
+--------------------
+Original text: ðēonde pres. ptc. of ðēon I.
+
+Error: Unexpected error: No terminal matches 'o' in the current parser context, at line 1 col 19
+
+ðēonde pres. ptc. of ðēon I.
+                  ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* ROM_NUM
+	* DGR
+	* LP
+	* SNS_POET_SYMB
+	* OEDREF
+	* GE_OPT
+	* VALEN
+	* PARENXR
+	* GLOSS
+	* USGLBL
+	* REFLBL
+	* TNS
+	* POS
+	* QMSENSE
+	* VERB_INFL_TYPE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #236
+--------------------
+Original text: ±gyrdan (pret. gyrde), _to ‘gird’ (sword)_, _Gen, PPs_: _encircle,
+surround_, _JnL_: (+) _invest with attributes_, _PPs_.
+
+Error: Unexpected error: No terminal matches '_' in the current parser context, at line 1 col 24
+
+±gyrdan (pret. gyrde), _to 'gird' (sword)_, _Gen, PPs_: _encirc
+                       ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* GE_OPT
+	* DGR
+	* SINGLECASE
+	* LP
+	* TNS
+	* VARIANT
+	* GEN
+	* LBL
+
+
+==================================================
+
+ENTRY #254
+--------------------
+Original text: word-gecwide (æ^3) n., -gecweodu np. _verbal agreement_.
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 24
+
+word-gecwide (æ^3) n., -gecweodu np. _verbal agreement_.
+                       ^
+Expected one of: 
+	* OF
+	* GEN
+	* NUM
+
+
+==================================================
+
+ENTRY #290
+--------------------
+Original text: ðæs I. adv. (gs. of ðæt) _afterwards_, _AO_: _thence_: _accordingly,
+according as_, _Æ, BH, Bo_: _therefore, because_, _CP_. ðæs ðe _since,
+after, afterwards; therefore, wherefore, because, that; as, according
+as; provided_; _(to express proportion) the_. tō ðæs _to that point,
+to that degree_. [‘_thes_’] II. gs. of sē and ðæt.
+
+Error: Unexpected error: No terminal matches 'o' in the current parser context, at line 1 col 18
+
+ðæs I. adv. (gs. of ðæt) _afterwards_, _AO_: _thence_: _a
+                 ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* INFVARIANT
+	* GE_OPT
+	* DGR
+	* SINGLECASE
+	* TNS
+	* LP
+	* GEN
+	* LBL
+
+
+==================================================
+
+ENTRY #305
+--------------------
+Original text: menung = (*mynung), mynegung
+
+Error: Unexpected error: No terminal matches '*' in the current parser context, at line 1 col 11
+
+menung = (*mynung), mynegung
+          ^
+Expected one of: 
+	* GE_PREF
+	* GE_OPT
+
+
+==================================================
+
+ENTRY #319
+--------------------
+Original text: onhierwan (u^1, y^2) _to deride, blaspheme_, W 70^15#c#.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 55
+
+, y^2) _to deride, blaspheme_, W 70^15#c#.
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #321
+--------------------
+Original text: icge only in phr. ‘icge gold,’ _treasure-gold_? _rich gold_? B 1108.
+
+Error: Unexpected error: No terminal matches ''' in the current parser context, at line 1 col 19
+
+icge only in phr. 'icge gold,' _treasure-gold_? _rich gold
+                  ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* EDCOMM
+	* GE_OPT
+	* NUM
+	* __ANON_1
+	* COLLOC
+	* VALEN
+	* PARENXR
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* SUBST
+	* VIDE
+	* DECL
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* QMSENSE
+	* ONEWORD
+	* COMMA
+	* SINGLECASE
+	* DOTSCOLLOC
+	* LSQB
+	* __ANON_2
+	* LBL
+
+
+==================================================
+
+ENTRY #345
+--------------------
+Original text: swinsweg? (v. OEG xxxiii), _melody_.
+
+Error: Unexpected error: No terminal matches 'x' in the current parser context, at line 1 col 19
+
+swinsweg? (v. OEG xxxiii), _melody_.
+                  ^
+Expected one of: 
+	* GRAMREF
+	* COMMA
+	* RP
+	* DOT
+	* HOMREF
+	* LP
+
+
+==================================================
+
+ENTRY #351
+--------------------
+Original text: rǣdan^7 (ē) pret. 3 sg. reord, rēd; also wv. (±) _to advise, counsel,
+persuade_, _El, Ma_; Æ: (±) _consult, discuss, deliberate, plot,
+design_, _Æ, AO, BH_: (±) _decree, decide_, _Æ_: _rule, guide, have
+control over, possess_, _B, Bo, Da_: _provide for_: _bring, deliver
+(goods)_, _LL_: _have an idea, guess, forebode_, _Æ, BH, Rd_: (±) _read,
+explain_, _Æ, Bl, Bo, G_: _learn by reading_: (+) _put in order_, _BH,
+EC_ (ē): _help_. [‘_read_,’ ‘_rede_’]
+
+Error: Unexpected error: No terminal matches 'w' in the current parser context, at line 1 col 42
+
+ǣdan^7 (ē) pret. 3 sg. reord, rēd; also wv. (±) _to advise, counsel, persuade_, 
+                                        ^
+Expected one of: 
+	* CASE
+	* DGR
+	* SINGLECASE
+	* TNS
+	* GEN
+	* LBL
+
+
+==================================================
+
+ENTRY #356
+--------------------
+Original text: yrsebin f. _iron box_, LL 455[17] (?= īsern, BT).
+
+Error: Unexpected error: No terminal matches '?' in the current parser context, at line 1 col 36
+
+yrsebin f. _iron box_, LL 455[17] (?= īsern, BT).
+                                   ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* SOURCE_NUM
+	* GE_OPT
+	* COMMA
+	* DGR
+	* SINGLECASE
+	* VIDE
+	* COMPARE
+	* USGLBL
+	* AUTH
+	* LP
+	* POET_SYMB
+	* TNS
+	* SOURCE
+	* GEN
+	* LBL
+
+
+==================================================
+
+ENTRY #367
+--------------------
+Original text: horngestrēon n. _wealth of pinnacles (on a house)_? [or ?=
+hordgestrēon], #Ruin# 23.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 75
+
+es (on a house)_? [or ?= hordgestrēon], #Ruin# 23.
+                                        ^
+Expected one of: 
+	* CASE
+	* DGR
+	* SINGLECASE
+	* TNS
+	* GEN
+	* __ANON_2
+	* LBL
+
+
+==================================================
+
+ENTRY #388
+--------------------
+Original text: oðswimman^3 (y) _to escape by swimming_, #Chr# 915#d#.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 53
+
+(y) _to escape by swimming_, #Chr# 915#d#.
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #408
+--------------------
+Original text: hū adv. ‘_how_,’ CP, Æ. hū gerādes; hū meta _how_. hū gēares _at what
+time of year_. hū nyta _wherefore_. hū ne dōð...? _do not...?_ hū
+nys...? _is not...?_: (with comparatives) _the_: (±) _in some way or
+other_, _Shr_: hū ne nū ‘_nonne_.’
+
+Error: Unexpected error: No terminal matches '?' in the current parser context, at line 1 col 119
+
+year_. hū nyta _wherefore_. hū ne dōð...? _do not...?_ hū nys...? _is not...?_: 
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* __ANON_3
+	* GE_OPT
+	* SPELLVAR
+	* NUM
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* USGLBL
+	* SUBST
+	* REFLBL
+	* DECL
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SINGLECASE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #409
+--------------------
+Original text: beǣwnian _to join in marriage, marry_, #Chr# 1052#d#. [ǣw]
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 52
+
+o join in marriage, marry_, #Chr# 1052#d#. [ǣw]
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #412
+--------------------
+Original text: welga = weliga wm. of welig adj.
+
+Error: Unexpected error: No terminal matches 'm' in the current parser context, at line 1 col 17
+
+welga = weliga wm. of welig adj.
+                ^
+Expected one of: 
+	* TNS
+	* DECL
+	* OF
+	* LBL
+
+
+==================================================
+
+ENTRY #422
+--------------------
+Original text: ±wǣde (ē) n. = wǣd f.
+
+Error: Parse error: Unexpected end-of-input. Expected one of: 
+	* CASE
+	* LBL
+
+
+==================================================
+
+ENTRY #425
+--------------------
+Original text: nīwcumen (nī(g)-) _neophyte_, RB.
+
+Error: Unexpected error: No terminal matches '_' in the current parser context, at line 1 col 19
+
+nīwcumen (nī(g)-) _neophyte_, RB.
+                  ^
+Expected one of: 
+	* GE_PREF
+	* GE_OPT
+	* RP
+	* AUTH
+	* LP
+	* SOURCE
+	* POET_SYMB
+	* VARIANT
+	* GEN
+
+
+==================================================
+
+ENTRY #434
+--------------------
+Original text: medmicle comp. medmāre, adv. _humbly, meanly, slightly_.
+
+Error: Unexpected error: No terminal matches '.' in the current parser context, at line 1 col 28
+
+medmicle comp. medmāre, adv. _humbly, meanly, slightly_.
+                           ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* ROM_NUM
+	* TRANSLATION
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* OEDREF
+	* SNS_POET_SYMB
+	* __ANON_3
+	* GE_OPT
+	* SPELLVAR
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* USGLBL
+	* REFLBL
+	* QM
+	* RP
+	* DECL
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #440
+--------------------
+Original text: grislic _‘grisly,’ horrible_, _HL_ 15^182 (very late).
+
+Error: Unexpected error: No terminal matches 'v' in the current parser context, at line 1 col 44
+
+slic _'grisly,' horrible_, _HL_ 15^182 (very late).
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* SOURCE_NUM
+	* GE_OPT
+	* COMMA
+	* DGR
+	* SINGLECASE
+	* VIDE
+	* COMPARE
+	* USGLBL
+	* AUTH
+	* LP
+	* POET_SYMB
+	* TNS
+	* SOURCE
+	* GEN
+	* LBL
+
+
+==================================================
+
+ENTRY #450
+--------------------
+Original text: caul [S 6#n#1] = cawl I. and II.
+
+Error: Unexpected error: No terminal matches '6' in the current parser context, at line 1 col 9
+
+caul [S 6#n#1] = cawl I. and II.
+        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* ROM_NUM
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* OEDREF
+	* COLON_SEP
+	* GE_OPT
+	* COMPARE
+	* NUM
+	* AUTH
+	* VALEN
+	* LPAR
+	* WORD
+	* VIDE
+	* QM
+	* REFLBL
+	* DECL
+	* LANG
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* SEMICOL_SEP
+	* COMMA
+	* SINGLECASE
+	* __ANON_6
+	* SOURCE
+	* RSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #463
+--------------------
+Original text: +ðȳde _good, virtuous_. #Cra# 68.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 25
+
++ðȳde _good, virtuous_. #Cra# 68.
+                        ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* EDCOMM
+	* GE_OPT
+	* NUM
+	* __ANON_1
+	* COLLOC
+	* VALEN
+	* PARENXR
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* SUBST
+	* VIDE
+	* DECL
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* QMSENSE
+	* ONEWORD
+	* COMMA
+	* SINGLECASE
+	* DOTSCOLLOC
+	* LSQB
+	* __ANON_2
+	* LBL
+
+
+==================================================
+
+ENTRY #468
+--------------------
+Original text: [[Cross-reference does not appear to exist; it may be an error for
+  “v. scrīðend [_see_ scrīðan], scrāð” as separate words.
+
+Error: Unexpected error: No terminal matches '[' in the current parser context, at line 1 col 1
+
+[[Cross-reference does not appear to exi
+^
+Expected one of: 
+	* GE_PREF
+	* GE_OPT
+	* LP
+	* WORD
+
+
+==================================================
+
+ENTRY #486
+--------------------
+Original text: ðigen I. f. _receiving, taking (of food or drink)_, _eating_, Æ: _food
+or drink_, Æ. [ðicgan] II. pp. of ðēon I. and ðicgan.
+
+Error: Parse error: Unexpected end-of-input. Expected one of: 
+	* OEDREF
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* LP
+	* SNS_POET_SYMB
+	* LP
+	* LP
+	* LP
+	* LP
+	* GE_PREF
+	* GE_PREF
+	* GE_OPT
+	* GE_OPT
+	* LSQB
+... (error message truncated - showing first 50 lines)
+
+==================================================
+
+ENTRY #491
+--------------------
+Original text: ūtermere m. _outer sea, open sea_, #Chr# 897#a#.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 47
+
+re m. _outer sea, open sea_, #Chr# 897#a#.
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #519
+--------------------
+Original text: gyrran^3 [= gierran, georran] _to sound, chatter_, Æ: _to creak, grate_,
+#An# 374.
+
+Error: Unexpected error: No terminal matches ',' in the current parser context, at line 1 col 20
+
+gyrran^3 [= gierran, georran] _to sound, chatter_, Æ: _to c
+                   ^
+Expected one of: 
+	* LPAR
+	* VIDE
+	* QM
+	* REFLBL
+	* __ANON_6
+	* LP
+	* RSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #522
+--------------------
+Original text: spēd f. _luck, success, prosperity_, _El, PPs_: _riches, wealth,
+abundance_, _Cr, Gen_; AO: _opportunity, power, faculty_, _Bl_. †_Ps_:
+(only in dp. spēdum) _‘speed,’ quickness_, _Gen_. on s. _fluently,
+skilfully_: _offspring_? #PPs# 103^16. [spōwan]
+
+Error: Unexpected error: No terminal matches 's' in the current parser context, at line 1 col 150
+
+er, faculty_, _Bl_. †_Ps_: (only in dp. spēdum) _'speed,' quickness_, _Gen_. on 
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* TRANSLATION
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* COLON_SEP
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* LPAR
+	* GLOSS
+	* USGLBL
+	* VIDE
+	* QM
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* PERS
+	* POS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #557
+--------------------
+Original text: ±andweardian _to present, bring before one_. (+andweardian also =
+andwyrdian.)
+
+Error: Unexpected error: No terminal matches 'a' in the current parser context, at line 1 col 48
+
+rdian _to present, bring before one_. (+andweardian also = andwyrdian.)
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* TRANSLATION
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* GE_OPT
+	* NUM
+	* AUTH
+	* SOURCE_NUM
+	* VALEN
+	* PARENXR
+	* GLOSS
+	* USGLBL
+	* RP
+	* DECL
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* QMSENSE
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #567
+--------------------
+Original text: grȳttra (A 4·151) = *grietra cp. of grēat. [‘_greater_’]
+
+Error: Unexpected error: No terminal matches 'c' in the current parser context, at line 1 col 30
+
+grȳttra (A 4·151) = *grietra cp. of grēat. ['_greater_']
+                             ^
+Expected one of: 
+	* CASE
+	* TRANSLATION
+	* DGR
+	* HOMREF
+	* NODOTGEN
+	* LP
+	* GEN
+	* OEDREF
+	* EDCOMM
+	* NUM
+	* __ANON_1
+	* COLLOC
+	* VALEN
+	* PARENXR
+	* LPAR
+	* GLOSS
+	* USGLBL
+	* SUBST
+	* VIDE
+	* RP
+	* DOT
+	* DECL
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* GRAMREF
+	* QMSENSE
+	* ONEWORD
+	* COMMA
+	* SINGLECASE
+	* DOTSCOLLOC
+	* LSQB
+	* __ANON_2
+	* LBL
+
+
+==================================================
+
+ENTRY #599
+--------------------
+Original text: foldāgend m. _earth-possessor, earth-dweller_, #Ph# 5. (MS. folcāgend)
+
+Error: Unexpected error: No terminal matches 'f' in the current parser context, at line 1 col 61
+
+possessor, earth-dweller_, #Ph# 5. (MS. folcāgend)
+                                        ^
+Expected one of: 
+	* RP
+
+
+==================================================
+
+ENTRY #620
+--------------------
+Original text: styfecung f. _clearing_? (_land_), Ct.
+
+Error: Unexpected error: No terminal matches ')' in the current parser context, at line 1 col 33
+
+styfecung f. _clearing_? (_land_), Ct.
+                                ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* COLON_SEP
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* VIDE
+	* QM
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #673
+--------------------
+Original text: snellscipe m. _quickness, boldness_, #Chr# 1057#d#.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 50
+
+e m. _quickness, boldness_, #Chr# 1057#d#.
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #679
+--------------------
+Original text: wilewīse = _wiligwīse_
+
+Error: Unexpected error: No terminal matches '_' in the current parser context, at line 1 col 12
+
+wilewīse = _wiligwīse_
+           ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* REFWORD
+	* NODOTGEN
+	* PREFSUFXR
+	* LP
+	* GEN
+	* GE_OPT
+	* NUM
+	* VALEN
+	* DECL
+	* MOOD
+	* TNS
+	* VARIANT
+	* PERS
+	* POS
+	* REFNUMWORD
+	* SINGLECASE
+	* LBL
+
+
+==================================================
+
+ENTRY #710
+--------------------
+Original text: earon (#VPs#) = sindon pres. 3 pl. of eom (v. wesan).
+
+Error: Unexpected error: No terminal matches '.' in the current parser context, at line 1 col 53
+
+) = sindon pres. 3 pl. of eom (v. wesan).
+                                        ^
+Expected one of: 
+	* CASE
+	* DGR
+	* NODOTGEN
+	* LP
+	* GEN
+	* EDCOMM
+	* __ANON_3
+	* NUM
+	* __ANON_1
+	* COLLOC
+	* VALEN
+	* LPAR
+	* USGLBL
+	* SUBST
+	* VIDE
+	* REFLBL
+	* RP
+	* DECL
+	* MOOD
+	* TNS
+	* PERS
+	* POS
+	* ONEWORD
+	* COMMA
+	* SINGLECASE
+	* DOTSCOLLOC
+	* LSQB
+	* __ANON_2
+	* LBL
+
+
+==================================================
+
+ENTRY #768
+--------------------
+Original text: lofgeorn _eager for praise_, ÆL 16^302: _lavish_? RB 54^9; 55^3.
+
+Error: Unexpected error: No terminal matches '5' in the current parser context, at line 1 col 60
+
+ praise_, ÆL 16^302: _lavish_? RB 54^9; 55^3.
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #778
+--------------------
+Original text: hēahsunne (ē^1) adj. mp. _very sinful_, MkR 2^15.
+
+Error: Unexpected error: No terminal matches 'm' in the current parser context, at line 1 col 22
+
+hēahsunne (ē^1) adj. mp. _very sinful_, MkR 2^15.
+                     ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* ROM_NUM
+	* DGR
+	* LP
+	* SNS_POET_SYMB
+	* OEDREF
+	* GE_OPT
+	* OF
+	* VALEN
+	* PARENXR
+	* GLOSS
+	* USGLBL
+	* REFLBL
+	* TNS
+	* POS
+	* QMSENSE
+	* VERB_INFL_TYPE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #816
+--------------------
+Original text: ðriðinggerēfa m. _governor or sheriff of a_ ‘ðriðing,’ LL (late).
+
+Error: Unexpected error: No terminal matches ''' in the current parser context, at line 1 col 45
+
+inggerēfa m. _governor or sheriff of a_ 'ðriðing,' LL (late).
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* COLON_SEP
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* VIDE
+	* QM
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #817
+--------------------
+Original text: ōra I. m. _border, bank, shore_, #Chr#; Mdf. II. m. _‘ore,’ unwrought
+metal_, _BH, Ps, WW_: _brass_, _ÆGr, Cp, CP_. III. _a coin of Danish
+origin_, _LkL, LL_ (v. 2·601). [‘_ora_’]
+
+Error: Unexpected error: No terminal matches '2' in the current parser context, at line 1 col 163
+
+a coin of Danish origin_, _LkL, LL_ (v. 2·601). ['_ora_']
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* GE_OPT
+	* REFWORD
+	* AUTH
+	* SOURCE
+	* POET_SYMB
+	* LP
+
+
+==================================================
+
+ENTRY #821
+--------------------
+Original text: cyningǣðe _man entitled to take oath as a king’s thane_, LL 112[54#bh#].
+
+Error: Unexpected error: No terminal matches '5' in the current parser context, at line 1 col 65
+
+to take oath as a king's thane_, LL 112[54#bh#].
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* NODOTGEN
+	* LP
+	* GEN
+	* OEDREF
+	* GE_OPT
+	* COMPARE
+	* NUM
+	* VALEN
+	* LPAR
+	* WORD
+	* VIDE
+	* REFLBL
+	* QM
+	* DECL
+	* LANG
+	* MOOD
+	* TNS
+	* POS
+	* PERS
+	* SINGLECASE
+	* __ANON_6
+	* RSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #830
+--------------------
+Original text: twihynde I. _having_ ‘wergild’ _of 200 shillings_. II. _a_ ‘wergild’ _of
+200 shillings_, LL.
+
+Error: Unexpected error: No terminal matches ''' in the current parser context, at line 1 col 22
+
+twihynde I. _having_ 'wergild' _of 200 shillings_. II. _a_ 'w
+                     ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* COLON_SEP
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* LPAR
+	* USGLBL
+	* VIDE
+	* QM
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #836
+--------------------
+Original text: snās (ǣ) f. _spit, skewer_, WW 237^17 and #n#.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 43
+
+ās (ǣ) f. _spit, skewer_, WW 237^17 and #n#.
+                                        ^
+Expected one of: 
+	* CASE
+	* DGR
+	* SINGLECASE
+	* QM
+	* TNS
+	* GEN
+	* LBL
+
+
+==================================================
+
+ENTRY #837
+--------------------
+Original text: wansian _to diminish_, #Chr# 656#e#.
+
+Error: Unexpected error: No terminal matches '#' in the current parser context, at line 1 col 35
+
+wansian _to diminish_, #Chr# 656#e#.
+                                  ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* DGR
+	* POET_SYMB
+	* MSREF
+	* LP
+	* GEN
+	* SRCVAR
+	* COLON_SEP
+	* GE_OPT
+	* AUTH
+	* LPAR
+	* VIDE
+	* QM
+	* TNS
+	* DOT_SEP
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* __ANON_5
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #929
+--------------------
+Original text: +fērlic _associated_. adv. -līce _sociably, together_; -līðlīce GD
+313^24.
+
+Error: Unexpected error: No terminal matches '-' in the current parser context, at line 1 col 56
+
+ated_. adv. -līce _sociably, together_; -līðlīce GD 313^24.
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* EDCOMM
+	* GE_OPT
+	* NUM
+	* AUTH
+	* __ANON_1
+	* COLLOC
+	* VALEN
+	* PARENXR
+	* GLOSS
+	* USGLBL
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* ONEWORD
+	* COMMA
+	* SINGLECASE
+	* SOURCE
+	* DOTSCOLLOC
+	* LSQB
+	* __ANON_2
+	* LBL
+
+
+==================================================
+
+ENTRY #947
+--------------------
+Original text: synt = sind pres. pl. ind. of wesan (bēon).
+
+Error: Unexpected error: No terminal matches 'o' in the current parser context, at line 1 col 28
+
+synt = sind pres. pl. ind. of wesan (bēon).
+                           ^
+Expected one of: 
+	* GE_PREF
+	* TRANSLATION
+	* CASE
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* __ANON_3
+	* GE_OPT
+	* SPELLVAR
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* USGLBL
+	* SUBST
+	* REFLBL
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #957
+--------------------
+Original text: mægð † I. f. gp. mægða, dp. mægðum, otherwise uninflected _maiden,
+virgin, girl, woman, wife_. [_Goth._ magaðs] II. (±) f. _power,
+greatness_.
+
+Error: Unexpected error: No terminal matches 'u' in the current parser context, at line 1 col 47
+
+ I. f. gp. mægða, dp. mægðum, otherwise uninflected _maiden, virgin, girl, woman
+                                        ^
+Expected one of: 
+	* GE_PREF
+	* CASE
+	* TRANSLATION
+	* DGR
+	* POET_SYMB
+	* NODOTGEN
+	* LP
+	* GEN
+	* SNS_POET_SYMB
+	* OEDREF
+	* __ANON_3
+	* GE_OPT
+	* SPELLVAR
+	* NUM
+	* AUTH
+	* __ANON_1
+	* VALEN
+	* PARENXR
+	* MINUS
+	* GLOSS
+	* USGLBL
+	* SUBST
+	* REFLBL
+	* QM
+	* RP
+	* DECL
+	* MOOD
+	* TNS
+	* DOT_SEP
+	* POS
+	* PERS
+	* QMSENSE
+	* COMMA
+	* SEMICOL_SEP
+	* SINGLECASE
+	* SOURCE
+	* LSQB
+	* LBL
+
+
+==================================================
+
+ENTRY #977
+--------------------
+Original text: ælf mf. (pl. ielfe, ylfe) _‘elf,’ sprite, fairy, goblin, incubus_, _B,
+Lcd_.
+
+Error: Unexpected error: No terminal matches 'i' in the current parser context, at line 1 col 14
+
+ælf mf. (pl. ielfe, ylfe) _'elf,' sprite, fairy, gobl
+             ^
+Expected one of: 
+	* NUM
+	* OF
+	* LBL
+	* RP
+
+
+==================================================
+
+ENTRY #978
+--------------------
+Original text: ðingum adv. (instr. pl. of ðing) _purposely_.
+
+Error: Unexpected error: No terminal matches '.' in the current parser context, at line 1 col 19
+
+ðingum adv. (instr. pl. of ðing) _purposely_.
+                  ^
+Expected one of: 
+	* GE_PREF
+	* GE_OPT
+	* RP
+	* AUTH
+	* LP
+	* SOURCE
+	* POET_SYMB
+	* VARIANT
+	* GEN
+
+
+==================================================
+
+ENTRY #990
+--------------------
+Original text: geongordōm †, geongorscipe ‡ m. _discipleship, allegiance_. [_OS._
+jungardōm; jungarskepi]
+
+Error: Unexpected error: No terminal matches 'e' in the current parser context, at line 1 col 16
+
+geongordōm †, geongorscipe ‡ m. _discipleship, allegian
+               ^
+Expected one of: 
+	* OF
+	* GEN
+	* NUM
+
+
+==================================================
+

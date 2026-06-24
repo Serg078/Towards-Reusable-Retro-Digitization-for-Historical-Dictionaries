@@ -1,0 +1,1121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://lex-0.org/schema/lex-0.rng"
+  type="application/xml"
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="lex-0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">The Student's Dictionary of Anglo-Saxon - TEI Lex-0 electronic edition</title>
+            <title type="abbr">SWT2TEI</title>
+            <author>
+               <persName>
+                  <forename>Henry</forename>
+                  <surname>Sweet</surname>
+               </persName>
+            </author>
+            <respStmt>
+               <resp>TEI Lex-0 encoding by</resp>
+               <name>Sergei Stoliarov</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digital transcription of the print source by</resp>
+               <name>Mike Pope</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0">First TEI Lex-0 encoding <date when="2026">2026</date>
+            </edition>
+         </editionStmt>
+         <extent>
+            <measure unit="entries">14</measure>
+         </extent>
+         <publicationStmt>
+            <authority>Sergei Stoliarov</authority>
+            <availability status="restricted">
+               <licence>
+                  Copyright © 2026 Sergei Stoliarov. All rights reserved.
+                  No reuse, modification, or redistribution is permitted without
+                  prior written permission from the copyright holder.
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl type="dictionaries">
+               <biblStruct xml:id="sweet1897">
+                  <monogr>
+                     <author>
+                        <persName>
+                           <forename>Henry</forename>
+                           <surname>Sweet</surname>
+                        </persName>
+                     </author>
+                     <title level="m">The Student's Dictionary of Anglo-Saxon</title>
+                     <imprint>
+                        <pubPlace>Oxford</pubPlace>
+                        <publisher>Clarendon Press</publisher>
+                        <date when="1897">1897</date>
+                     </imprint>
+                  </monogr>
+                  <note>
+                     Encoding based on the HTML transcription prepared by Mike Pope:
+                     https://mikepope.com/sweet/sweet-dictionary-entries.html
+                  </note>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="corpora">
+               <bibl xml:id="Gl">Gl. (glossary)</bibl>
+               <bibl xml:id="Ct">Ct. (Charter)</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ang" role="objectLanguage">
+               <name xml:lang="en">Old English (Anglo-Saxon)</name>
+               <date notBefore="0450" notAfter="1100"/>
+            </language>
+            <language ident="ang-x-ws" role="objectLanguage">
+               <name xml:lang="en">West Saxon</name>
+               <ident type="siglum">WS</ident>
+            </language>
+            <language ident="ang-x-ews" role="objectLanguage">
+               <name xml:lang="en">Early West Saxon</name>
+               <ident type="siglum">EWS</ident>
+            </language>
+            <language ident="ang-x-lws" role="objectLanguage">
+               <name xml:lang="en">Late West Saxon</name>
+               <ident type="siglum">LWS</ident>
+            </language>
+            <language ident="ang-x-angl" role="objectLanguage">
+               <name xml:lang="en">Anglian</name>
+               <ident type="siglum">A</ident>
+            </language>
+            <language ident="ang-x-merc" role="objectLanguage">
+               <name xml:lang="en">Mercian</name>
+               <ident type="siglum">M</ident>
+            </language>
+            <language ident="ang-x-north" role="objectLanguage">
+               <name xml:lang="en">Northumbrian</name>
+               <ident type="siglum">N</ident>
+            </language>
+            <language ident="ang-x-kent" role="objectLanguage">
+               <name xml:lang="en">Kentish</name>
+               <ident type="siglum">K</ident>
+            </language>
+            <language ident="ang-x-ekent" role="objectLanguage">
+               <name xml:lang="en">Early Kentish</name>
+               <ident type="siglum">EK</ident>
+            </language>
+            <language ident="en" role="workingLanguage">
+               <name xml:lang="en">Modern English</name>
+            </language>
+            <language ident="la" role="sourceLanguage">
+               <name xml:lang="en">Latin</name>
+            </language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- <entry source_id="bǣtan"><form>bǣtan</form>(<form>bǣt|an</form>) furnish with bit, bridle; coerce, restrain | hunt, bait, worry [<form>bītan</form>].</entry> -->
+         <entry xml:id="SWT.bǣtan" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth value="bǣtan">bǣt|an</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="verb"/>
+            </gramGrp>
+            <sense xml:id="SWT.bǣtan.1">
+               <sense xml:id="SWT.bǣtan.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>furnish with bit, bridle</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.bǣtan.1.2">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>coerce, restrain</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark function="senseSeparator">|</metamark>
+            <sense xml:id="SWT.bǣtan.2">
+               <sense xml:id="SWT.bǣtan.2.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>hunt, bait, worry</quote>
+                  </cit>
+                  <etym>
+                     <pc>[</pc>
+                     <xr type="related">
+                        <ref type="entry" target="#bītan">bītan</ref>
+                     </xr>
+                     <pc>]</pc>
+                  </etym>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="etan"><form>etan</form>(<form>et|an</form>),<meta>prt.</meta><form>ǣt</form>5 eat; consume.</entry>
+              <entry source_id="etend"><form>~end</form>,<form>~ere</form><meta>m.</meta>eater, glutton.</entry>
+              <entry source_id="eting"><form>~ing</form><meta>f.</meta>eating.</entry> -->
+         <entry xml:id="SWT.etan" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth value="etan">et|an</orth>
+            </form>
+            <pc>,</pc>
+            <form type="inflected">
+               <gramGrp>
+                  <gram type="tense" value="past">prt.</gram>
+               </gramGrp>
+               <orth>ǣt</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="strong verb"/>
+               <gram type="inflectionType">5</gram>
+            </gramGrp>
+            <sense xml:id="SWT.etan.1">
+               <sense xml:id="SWT.etan.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>eat</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.etan.1.2">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>consume</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+            <entry xml:id="SWT.etend" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="etend">
+                     <seg>~end</seg>
+                  </orth>
+                  <pc>,</pc>
+                  <form type="variant">
+                     <orth extent="part" expand="etere">
+                        <seg>~ere</seg>
+                     </orth>
+                  </form>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="masculine">m.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.etend.1">
+                  <sense xml:id="SWT.etend.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>eater, glutton</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.eting" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="eting">
+                     <seg>~ing</seg>
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="feminine">f.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.eting.1">
+                  <sense xml:id="SWT.eting.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>eating</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+         </entry>
+         <!-- <entry source_id="gefæd"><span class="entryPrefix">ge</span><form>fæd</form>orderly, proper, well-regulated (in character) [<form>fadian</form>].</entry>
+<entry source_id="gefædlic"><form>~lic</form>suitable, proper.</entry>
+<entry source_id="gefædlīce"><form>~līce</form><meta>av.</meta>properly.</entry> -->
+         <entry xml:id="SWT.gefæd" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth value="gefæd">
+                  <seg>ge</seg>
+                  <seg>fæd</seg>
+               </orth>
+            </form>
+            <sense xml:id="SWT.gefæd.1">
+               <sense xml:id="SWT.gefæd.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>orderly, proper, well-regulated</quote>
+                     <gloss>(in character)</gloss>
+                  </cit>
+                  <etym>
+                     <pc>[</pc>
+                     <xr type="related">
+                        <ref type="entry" target="#SWT.fadian">fadian</ref>
+                     </xr>
+                     <pc>]</pc>
+                  </etym>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+            <entry xml:id="SWT.gefædlic" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="gefædlic">
+                     <seg>~lic</seg>
+                  </orth>
+               </form>
+               <sense xml:id="SWT.gefædlic.1">
+                  <sense xml:id="SWT.gefædlic.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>suitable, proper</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.gefædlīce" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="gefædlīce">
+                     <seg>~līce</seg>
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="adverb">av.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.gefædlīce.1">
+                  <sense xml:id="SWT.gefædlīce.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>properly</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+         </entry>
+         <!-- <entry source_id="habban"><form>habban</form>,<form>æ</form>, (<form>hē</form>)<form>hæfþ</form>,<form>hafaþ</form>,<meta>prt.</meta><form>hæfde</form><meta>w. a., partitive g.</meta>have, hold, take,<meta>met.</meta>possess, hold, have:<expr>~ wiþ þām fȳre</expr>;<expr>~ mid him</expr>;<expr>æt hæbbendre handa</expr>with the stolen goods in his possession;<expr>wīf ~</expr>have intercourse with;<expr>hē hæfde þrītig wintra</expr>he was thirty;<expr>gif hē þæs andgytes hæfþ þæt hē hit understandan mæg</expr>;<expr>~ andan tō</expr>bear malice | behave to:<expr>yfele ~</expr>ill-treat —<meta>ptc.</meta><expr>yfele gehæfd</expr>tormented, diseased | have an opinion about:<expr>þā lǣwedan willaþ ~ þone mōnan be þām þe hī hine gesēoþ</expr>|<meta>necessity, obligation w. ger.</meta>:<expr>þone calic þe ic tō drincenne hæbbe</expr>|<meta>to form past tenses w. inflected or (gen.) uninflected ptc.</meta>:<expr>oþ þæt hīe hine ofslægen(ne) hæfdon</expr>.</entry> -->
+         <entry xml:id="SWT.habban" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>habban</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth extent="part" expand="hæbban">
+                     <seg>æ</seg>
+                  </orth>
+               </form>
+            </form>
+            <pc>,</pc>
+            <form type="inflected">
+               <lbl>(hē)</lbl>
+               <gramGrp>
+                  <gram type="tense" value="present"/>
+                  <gram type="person" value="third"/>
+                  <gram type="number" value="singular"/>
+               </gramGrp>
+               <orth>hæfþ</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth>hafaþ</orth>
+               </form>
+            </form>
+            <pc>,</pc>
+            <form type="inflected">
+               <gramGrp>
+                  <gram type="tense" value="past">prt.</gram>
+               </gramGrp>
+               <orth>hæfde</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="verb"/>
+            </gramGrp>
+            <sense xml:id="SWT.habban.1">
+               <sense xml:id="SWT.habban.1.1">
+                  <gramGrp>
+                     <gram type="construction" value="with accusative, partitive genitive">w. a., partitive g.</gram>
+                  </gramGrp>
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>have, hold, take</quote>
+                  </cit>
+                  <pc>,</pc>
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <usg type="meaningType" norm="metaphorical">met.</usg>
+                     <quote>possess, hold, have</quote>
+                  </cit>
+                  <metamark>:</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>
+                        <ref type="form" scope="currentEntry" value="habban">~ </ref>wiþ þām fȳre</quote>
+                  </cit>
+                  <metamark>;</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>
+                        <ref type="form" scope="currentEntry" value="habban">~ </ref>mid him</quote>
+                  </cit>
+                  <metamark>;</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>æt hæbbendre handa</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>with the stolen goods in his possession</quote>
+                     </cit>
+                  </cit>
+                  <metamark>;</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>wīf <ref type="form" scope="currentEntry" value="habban">~</ref>
+                     </quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>have intercourse with</quote>
+                     </cit>
+                  </cit>
+                  <metamark>;</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>hē hæfde þrītig wintra</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>he was thirty</quote>
+                     </cit>
+                  </cit>
+                  <metamark>;</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>gif hē þæs andgytes hæfþ þæt hē hit understandan mæg</quote>
+                  </cit>
+                  <metamark>;</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>
+                        <ref type="form" scope="currentEntry" value="habban">~ </ref> andan tō</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>bear malice</quote>
+                     </cit>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark function="senseSeparator">|</metamark>
+            <sense xml:id="SWT.habban.2">
+               <sense xml:id="SWT.habban.2.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>behave to</quote>
+                  </cit>
+                  <metamark>:</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>yfele <ref type="form" scope="currentEntry" value="habban">~ </ref>
+                     </quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>ill-treat</quote>
+                     </cit>
+                  </cit>
+                  <metamark>—</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <gramGrp>
+                        <gram type="participle" value="participle">ptc.</gram>
+                     </gramGrp>
+                     <quote>yfele gehæfd</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>tormented, diseased</quote>
+                     </cit>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark function="senseSeparator">|</metamark>
+            <sense xml:id="SWT.habban.3">
+               <sense xml:id="SWT.habban.3.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>have an opinion about</quote>
+                  </cit>
+                  <metamark>:</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>þā lǣwedan willaþ <ref type="form" scope="currentEntry" value="habban">~ </ref> þone mōnan be þām þe hī hine gesēoþ</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark function="senseSeparator">|</metamark>
+            <sense xml:id="SWT.habban.4">
+               <sense xml:id="SWT.habban.4.1">
+                  <gramGrp>
+                     <gram type="construction" value="necessity, obligation with gerund">necessity, obligation w. ger.</gram>
+                  </gramGrp>
+                  <metamark>:</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>þone calic þe ic tō drincenne hæbbe</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark function="senseSeparator">|</metamark>
+            <sense xml:id="SWT.habban.5">
+               <sense xml:id="SWT.habban.5.1">
+                  <gramGrp>
+                     <gram type="construction">to form past tenses w. inflected or (gen.) uninflected ptc.</gram>
+                  </gramGrp>
+                  <metamark>:</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>oþ þæt hīe hine ofslægen(ne) hæfdon</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="gehagian"><span class="entryPrefix">ge</span><form>hagian</form>, (<span class="entryPrefix">ge</span><form>hag|ian</form>)<meta>impers.</meta>—<expr>gif him</expr>(<meta>or</meta><expr>hine</expr>)<expr>tō þām ~ige</expr>if he has the money, can afford it.</entry> -->
+         <entry xml:id="SWT.gehagian" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth value="gehagian">
+                  <seg>
+                     <hi rend="muted">ge</hi>
+                  </seg>
+                  <seg>hag|ian</seg>
+               </orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="verb"/>
+            </gramGrp>
+            <sense xml:id="SWT.gehagian.1">
+               <sense xml:id="SWT.gehagian.1.1">
+                  <gramGrp>
+                     <gram type="valency" value="impersonal">impers.</gram>
+                  </gramGrp>
+                  <metamark>—</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>gif him (or hine) tō þām <ref type="form" scope="currentEntry" value="gehag">~</ref>ige</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>if he has the money, can afford it</quote>
+                     </cit>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="hēahfȳr"><form>hēahfȳr</form>(<form>hēah|fȳr</form>) †<meta>n.</meta>high flame.</entry> <entry source_id="hēahgāst"><form>~gāst</form>†<meta>m.</meta>lofty spirit.</entry> <entry source_id="hēahgnornung"><form>~gnornung</form>†<meta>f.</meta>lamentation.</entry> <entry source_id="hēahgod"><form>~god</form>†<meta>m.</meta>the Highest, God.</entry> <entry source_id="hēahgræft"><form>~græft</form><meta>m.</meta>object carved in relief (?) Gl.</entry> <entry source_id="hēahhād"><form>~hād</form><meta>m.</meta>holy order.</entry> <entry source_id="hēahheort"><form>~heort</form>† proud.</entry> <entry source_id="hēahhierde"><form>~hierde</form><meta>m.</meta>archimandrite Gl.</entry> <entry source_id="hēahhliþ"><form>~hliþ</form>†<meta>n.</meta>high hill.</entry> <entry source_id="hēahhwēolod"><form>~hwēolod</form>having high wheels.</entry> <entry source_id="hēahhylte"><form>~hylt</form><span class="doubtfulEnding">e</span>(<meta>n.</meta>) high wood (?)<meta>Ct</meta>.</entry> <entry source_id="hēahhyrne"><form>~hyrne</form>=<form>ēag-</form>.</entry> <entry source_id="hēahięldest"><form>~ięldest</form>(!) most illustrious Gl.</entry> <entry source_id="hēahlæ_ce"><form>~lǣce</form>,<form>hēal-</form><meta>m.</meta>physician.</entry> <entry source_id="hēahland"><form>~land</form>†<meta>n.</meta>mountains.</entry> <entry source_id="hēahlāreow"><form>~lāreow</form><meta>m.</meta>chief teacher.</entry> <entry source_id="hēahleornere"><form>~leornere</form><meta>m.</meta>chief learner Gl.</entry> <entry source_id="hēahlufe"><form>~lufe</form>†<meta>f.</meta>great love.</entry> <entry source_id="hēahmægen"><form>~mægen</form>†<meta>n.</meta>might; mighty troops<meta>coll</meta>.</entry> <entry source_id="hēahmæsse"><form>~mæsse</form><meta>f.</meta>high mass.</entry> <entry source_id="hēahmiht"><form>~miht</form>†<meta>f.</meta>might.</entry> -->
+         <entry xml:id="SWT.hēahfȳr" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth value="hēahfȳr">hēah|fȳr</orth>
+            </form>
+            <usg type="textType" value="attested in poetic texts">†</usg>
+            <gramGrp>
+               <gram type="pos" value="noun"/>
+               <gram type="gen" value="neuter">n.</gram>
+            </gramGrp>
+            <sense xml:id="SWT.hēahfȳr.1">
+               <sense xml:id="SWT.hēahfȳr.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>high flame</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+            <entry xml:id="SWT.hēahgāst" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahgāst">
+                     <seg>~gāst</seg>
+                  </orth>
+               </form>
+               <usg type="textType" value="attested in poetic texts">†</usg>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="masculine">m.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.hēahgāst.1">
+                  <sense xml:id="SWT.hēahgāst.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>lofty spirit</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.hēahgnornung" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahgnornung">
+                     <seg>~gnornung</seg>
+                  </orth>
+               </form>
+               <usg type="textType" value="attested in poetic texts">†</usg>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="feminine">f.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.hēahgnornung.1">
+                  <sense xml:id="SWT.hēahgnornung.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>lamentation</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <!-- ... -->
+            <entry xml:id="SWT.hēahgræft" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahgræft">
+                     <seg>~græft</seg>
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="masculine">m.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.hēahgræft.1">
+                  <sense xml:id="SWT.hēahgræft.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>object carved in relief</quote>
+                        <note cert="low" resp="author">(?)</note>
+                        <bibl type="attestation" source="#Gl">Gl</bibl>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <!-- ... -->
+            <entry xml:id="SWT.hēahhylte" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahhylte">
+                     <seg>~hylt</seg>
+                     <seg cert="low" resp="author">e</seg>
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="neuter" cert="low" resp="author">(n.)</gram>
+               </gramGrp>
+               <sense xml:id="SWT.hēahhylte.1">
+                  <sense xml:id="SWT.hēahhylte.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>high wood</quote>
+                        <note cert="low" resp="author">(?)</note>
+                        <bibl type="attestation" source="#Ct">Ct</bibl>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.hēahhyrne" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahhyrne">
+                     <seg>~hyrne</seg>
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+               </gramGrp>
+               <xr type="related" expand="orthographic variant">
+                  <lbl>=</lbl>
+                  <ref type="entry" target="#SWT.ēaghyrne">ēag-</ref>
+               </xr>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.hēahięldest" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahięldest">
+                     <seg>~ięldest</seg>
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="adjective"/>
+               </gramGrp>
+               <note>(!)</note>
+               <sense xml:id="SWT.hēahięldest.1">
+                  <sense xml:id="SWT.hēahięldest.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>most illustrious</quote>
+                        <bibl type="attestation" source="#Gl">Gl</bibl>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.hēahlǣce" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahlǣce">
+                     <seg>~lǣce</seg>
+                  </orth>
+                  <pc>,</pc>
+                  <form type="variant">
+                     <orth extent="part" expand="hēallǣce">
+                        <seg>hēal-</seg>
+                     </orth>
+                  </form>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="masculine">m.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.hēahlǣce.1">
+                  <sense xml:id="SWT.hēahlǣce.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>physician</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <!-- ... -->
+            <entry xml:id="SWT.hēahmægen" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="hēahmægen">
+                     <seg>~mægen</seg>
+                  </orth>
+               </form>
+               <usg type="textType" value="attested in poetic texts">†</usg>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="gen" value="neuter">n.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.hēahmægen.1">
+                  <sense xml:id="SWT.hēahmægen.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>might</quote>
+                     </cit>
+                  </sense>
+                  <metamark function="senseSeparator">;</metamark>
+                  <sense xml:id="SWT.hēahmægen.1.2">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <usg type="hint" value="collective">coll</usg>
+                        <quote>mighty troops</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <!-- ... -->
+         </entry>
+         <!-- <entry source_id="fræ_t"><form>frǣt</form><meta>prt. of</meta><form>fretan</form>.</entry> -->
+         <entry xml:id="SWT.frǣt-1" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>frǣt</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="verb"/>
+               <gram type="tense" value="past">prt.</gram>
+            </gramGrp>
+            <xr type="related" expand="inflected form">
+               <lbl>of</lbl>
+               <ref target="#SWT.fretan" type="entry">fretan</ref>
+            </xr>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="gięst"><form>gięst</form>,<form>æ</form>;<form>ę</form><meta>A., also lW.</meta>[<meta>Scand. form</meta>?]<meta>m.</meta>stranger; guest; † enemy.</entry> -->
+         <entry xml:id="SWT.gięst" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>gięst</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth extent="part" expand="gæst">æ</orth>
+               </form>
+               <metamark>;</metamark>
+               <form type="variant">
+                  <orth extent="part" expand="gęst">ę</orth>
+                  <usg type="geographic" norm="Anglian">A.</usg>
+                  <pc>,</pc>
+                  <lbl>also</lbl>
+                  <usg type="temporal" norm="late West-Saxon">lW.</usg>
+                  <etym> <!-- or just note? -->
+                     <pc>[</pc>
+                     <cit type="etymon">
+                        <lang norm="Scandinavian">Scand.</lang>
+                        <note cert="low" resp="author">form?</note>
+                     </cit>
+                     <pc>]</pc>
+                  </etym>
+               </form>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="noun"/>
+               <gram type="gen" value="masculine">m.</gram>
+            </gramGrp>
+            <sense xml:id="SWT.gięst.1">
+               <sense xml:id="SWT.gięst.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>stranger</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.gięst.1.2">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>guest</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.gięst.1.3">
+                  <usg type="textType" value="attested in poetic texts">†</usg>
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>enemy</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="þēah1"><form>þēah</form>,<form>þēh</form><meta>av.</meta>however, yet ||<form>þēah</form>,<form>þēah-þe</form><meta>cj. w. sbj.</meta>although; if; that:<expr>nis ēac nān wundor, þēah ūs mislimpe</expr>|<meta>correl.</meta><expr>þēah (þe) … þēah</expr>although … yet.</entry>-->
+         <entry xml:id="SWT.þēah1" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>þēah</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth>þēh</orth>
+               </form>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="adverb">av.</gram>
+            </gramGrp>
+            <sense xml:id="SWT.þēah1.1">
+               <sense xml:id="SWT.þēah1.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>however, yet</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark function="senseSeparator">||</metamark>
+            <sense xml:id="SWT.þēah1.2">
+               <form type="lemma">
+                  <orth>
+                     <ref type="form" scope="currentEntry" value="þēah">þēah</ref>
+                  </orth>
+                  <pc>,</pc>
+                  <form type="variant">
+                     <orth>
+                        <seg>þēah</seg>
+                        <seg>-þe</seg>
+                     </orth>
+                  </form>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="conjunction">cj.</gram>
+                  <gram type="construction" value="with subjunctive">w. sbj.</gram>
+               </gramGrp>
+               <sense xml:id="SWT.þēah1.2.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>although</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.þēah1.2.2">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>if</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.þēah1.2.3">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>that</quote>
+                  </cit>
+                  <metamark>:</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>nis ēac nān wundor, þēah ūs mislimpe</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark function="senseSeparator">|</metamark>
+            <sense xml:id="SWT.þēah1.3">
+               <sense xml:id="SWT.þēah1.3.1">
+                  <gramGrp>
+                     <gram type="construction" value="correlative">correl.</gram>
+                  </gramGrp>
+                  <cit type="example" xml:lang="ang">
+                     <quote>þēah (þe) … þēah</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>although … yet</quote>
+                     </cit>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="þēah2"><form>þēah</form>=<form>þāh</form>,<meta>prt. of</meta><form>þicgan</form>,<form>þēon</form>.</entry> -->
+         <entry xml:id="SWT.þēah2" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>þēah</orth>
+            </form>
+            <xr type="related" expand="orthographic variant">
+               <lbl>=</lbl>
+               <ref target="#SWT.þāh" type="entry">þāh</ref>
+            </xr>
+            <pc>,</pc>
+            <gramGrp>
+               <gram type="pos" value="verb"/>
+               <gram type="tense" value="past">prt.</gram>
+            </gramGrp>
+            <xr type="related" expand="inflected form">
+               <lbl>of</lbl>
+               <ref target="#SWT.þicgan" type="entry">þicgan</ref>
+               <pc>,</pc>
+               <ref target="#SWT.þēon" type="entry">þēon</ref>
+            </xr>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="wrēon"><form>wrēon</form>6, 7<meta>prt.</meta><form>wrāh</form>,<form>ēa</form>,<meta>pl.</meta><form>wrigon</form>,<form>u</form>,<meta>ptc.</meta><form>wrigen</form>,<form>o</form>cover<meta>rare in W</meta>.</entry>-->
+         <entry xml:id="SWT.wrēon" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>wrēon</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="strong verb"/>
+               <gram type="inflectionType">6</gram>
+               <pc>,</pc>
+               <gram type="inflectionType">7</gram>
+            </gramGrp>
+            <form type="inflected">
+               <gramGrp>
+                  <gram type="tense" value="past">prt.</gram>
+               </gramGrp>
+               <orth>wrāh</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth extent="part" expand="wrēah">
+                     <seg>ēa</seg>
+                  </orth>
+               </form>
+            </form>
+            <pc>,</pc>
+            <form type="inflected">
+               <gramGrp>
+                  <gram type="number" value="plural">pl.</gram>
+               </gramGrp>
+               <orth>wrigon</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth extent="part" expand="wrugon">
+                     <seg>u</seg>
+                  </orth>
+               </form>
+            </form>
+            <pc>,</pc>
+            <form type="inflected">
+               <gramGrp>
+                  <gram type="participle" value="participle">ptc.</gram>
+               </gramGrp>
+               <orth>wrigen</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth extent="part" expand="wrogen">
+                     <seg>o</seg>
+                  </orth>
+               </form>
+            </form>
+            <sense xml:id="SWT.wrēon.1">
+               <sense xml:id="SWT.wrēon.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>cover</quote>
+                  </cit>
+                  <usg type="geographic" norm="West-Saxon"><lbl>rare in</lbl>W</usg>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="cild"><form>cild</form><meta>n., pl.</meta><form>cild(ru)</form>child —<expr>wearþ mid (þām) ~e</expr>became pregnant.<expr>~a hierde</expr>schoolmaster, paedagogus.<expr>~a mæssedæg</expr>Innocents’-day.<form>~trog</form>cradle.</entry> -->
+         <entry xml:id="SWT.cild" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>cild</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="noun"/>
+               <gram type="gen" value="neuter">n.</gram>
+            </gramGrp>
+            <pc>,</pc>
+            <form type="inflected">
+               <gramGrp>
+                  <gram type="number" value="plural">pl.</gram>
+               </gramGrp>
+               <orth expand="cild, cildru">cild(ru)</orth>
+            </form>
+            <sense xml:id="SWT.cild.1">
+               <sense xml:id="SWT.cild.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>child</quote>
+                  </cit>
+                  <metamark>—</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>wearþ mid (þām) <ref type="form" scope="currentEntry" value="cild"> ~</ref>e</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>became pregnant</quote>
+                     </cit>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+            <entry xml:id="SWT.cilda_hierde" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth>
+                     <ref type="form" scope="currentEntry" value="cild">~</ref>a hierde
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="mwe" value="fixed_combination"/>
+               </gramGrp>
+               <sense xml:id="SWT.cilda_hierde.1">
+                  <sense xml:id="SWT.cilda_hierde.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>schoolmaster, paedagogus</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.cilda_mæssedæg" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="cild">
+                     <ref type="form" scope="currentEntry" value="cild">~</ref>a mæssedæg
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+                  <gram type="mwe" value="fixed_combination"/>
+               </gramGrp>
+               <sense xml:id="SWT.cilda_mæssedæg.1">
+                  <sense xml:id="SWT.cilda_mæssedæg.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>Innocents’-day</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+            <entry xml:id="SWT.cildtrog" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="cild">
+                     <ref type="form" scope="currentEntry" value="cild">~</ref>trog
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="noun"/>
+               </gramGrp>
+               <sense xml:id="SWT.cildtrog.1">
+                  <sense xml:id="SWT.cildtrog.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>cradle</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+         </entry>
+         <!-- <entry source_id="tūn"><form>tūn</form><meta>m.</meta>enclosure round house, yard, garden; manor, estate, farm —<expr>~es mann</expr>man living on a manor; village; town; dwelling,<meta>coll.</meta>the world:<expr>lenctentīma gǣþ tō ~e on vii. id. febr.</expr>comes, falls.</entry> -->
+         <entry xml:id="SWT.tūn" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>tūn</orth>
+            </form>
+            <gramGrp>
+               <gram type="pos" value="noun"/>
+               <gram type="gen" value="masculine">m.</gram>
+            </gramGrp>
+            <sense xml:id="SWT.tūn.1">
+               <sense xml:id="SWT.tūn.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>enclosure round house, yard, garden</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.tūn.1.2">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>manor, estate, farm</quote>
+                  </cit>
+                  <metamark>—</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>
+                        <ref type="form" scope="currentEntry" value="tūn">~</ref>es mann
+                     </quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>man living on a manor</quote>
+                     </cit>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.tūn.1.3">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>village</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.tūn.1.4">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>town</quote>
+                  </cit>
+               </sense>
+               <metamark function="senseSeparator">;</metamark>
+               <sense xml:id="SWT.tūn.1.5">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>dwelling</quote>
+                  </cit>
+                  <pc>,</pc>
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <usg type="hint" value="collective">coll.</usg>
+                     <quote>the world</quote>
+                  </cit>
+                  <metamark>:</metamark>
+                  <cit type="example" xml:lang="ang">
+                     <quote>lenctentīma gǣþ tō <ref type="form" scope="currentEntry" value="tūn">~</ref>e on vii. id. febr.</quote>
+                     <cit type="translation" xml:lang="en">
+                        <quote>comes, falls</quote>
+                     </cit>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+         </entry>
+         <!-- <entry source_id="cealf"><form>cealf</form>,<meta>A.</meta><form>ę</form>,<form>ǣ</form>,<meta>n.</meta><meta>pl.</meta><form>~as</form>,<form>~ru</form>,<meta>A.</meta><form>calfur</form>,<form>calferu</form>calf.</entry>
+<entry source_id="cealfian"><form>~ian</form>calve.</entry> -->
+         <entry xml:id="SWT.cealf" type="mainEntry" xml:lang="ang">
+            <form type="lemma">
+               <orth>cealf</orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <usg type="geographic" norm="Anglian">A.</usg>
+                  <orth extent="part" expand="cęlf">ę</orth>
+                  <pc>,</pc>
+                  <form type="variant">
+                     <orth extent="part" expand="cǣlf">ǣ</orth>
+                  </form>
+               </form>
+            </form>
+            <pc>,</pc>
+            <gramGrp>
+               <gram type="pos" value="noun"/>
+               <gram type="gen" value="neuter">n.</gram>
+            </gramGrp>
+            <form type="inflected">
+               <gramGrp>
+                  <gram type="number" value="plural">pl.</gram>
+               </gramGrp>
+               <orth extent="part" expand="cealfas">
+                  <seg>~as</seg>
+               </orth>
+               <pc>,</pc>
+               <form type="variant">
+                  <orth extent="part" expand="cealfru">
+                     <seg>~ru</seg>
+                  </orth>
+               </form>
+               <pc>,</pc>
+               <form type="variant">
+                  <usg type="geographic" norm="Anglian">A.</usg>
+                  <orth>calfur</orth>
+                  <pc>,</pc>
+                  <form type="variant">
+                     <orth>calferu</orth>
+                  </form>
+               </form>
+            </form>
+            <sense xml:id="SWT.cealf.1">
+               <sense xml:id="SWT.cealf.1.1">
+                  <cit type="translationEquivalent" xml:lang="en">
+                     <quote>calf</quote>
+                  </cit>
+               </sense>
+            </sense>
+            <metamark>.</metamark>
+            <entry xml:id="SWT.cealfian" type="relatedEntry" xml:lang="ang">
+               <form type="lemma">
+                  <orth extent="part" expand="cealfian">
+                     <seg>~ian</seg>
+                  </orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos" value="verb"/>
+               </gramGrp>
+               <sense xml:id="SWT.cealfian.1">
+                  <sense xml:id="SWT.cealfian.1.1">
+                     <cit type="translationEquivalent" xml:lang="en">
+                        <quote>calve</quote>
+                     </cit>
+                  </sense>
+               </sense>
+               <metamark>.</metamark>
+            </entry>
+         </entry>
+      </body>
+   </text>
+</TEI>
