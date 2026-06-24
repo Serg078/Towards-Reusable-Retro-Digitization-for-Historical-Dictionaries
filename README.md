@@ -17,7 +17,9 @@ principles can be transferred to a second historical dictionary.
 
 ## Viewing and using the repository
 
-All files can be inspected directly on GitHub without downloading the repository. The Python scripts themselves cannot be run from the ordinary GitHub file view.
+Most files can be inspected directly on GitHub without downloading the repository. Some large output or diagnostic files may exceed GitHub's browser display limit; these files can still be downloaded or opened through the Raw option.
+
+The Python scripts cannot be run from the ordinary GitHub file view.
 
 To run the pipelines, download or clone the repository to a computer with Python installed:
 
