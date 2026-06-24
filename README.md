@@ -182,7 +182,7 @@ Run all commands from the repository's top-level folder.
 
 ### Test the Clark Hall pipeline
 
-Use the small test file first:
+Use the small test file first (note that the parsing time for the sample is around 2.5 minutes):
 
 ```cmd
 python src/CAS_parser.py data/input/CAS_test_sample.txt

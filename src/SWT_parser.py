@@ -1,8 +1,8 @@
 """
 Sweet dictionary parser with TEI transformer.
 
-This version keeps the parse-tree and failed-entry reports, writes a TEI-style
-transformed-output file, and currently handles lemma forms, run-on nesting,
+The parser retains parse-tree and failed-entry reports, writes a TEI-style
+transformed-output file, and handles lemma forms, run-on nesting,
 homonymic entries, entry-level grammatical information, nested lemma variants,
 and minimal senses/examples.
 """
@@ -418,8 +418,7 @@ class SweetTEITransformer(Transformer):
             attrs["value"] = self._clean_attr_form(value) or value
         orth = ET.Element("orth", attrs)
 
-        # User policy for this first transformer step:
-        # only a hyphen in the displayed segmentation triggers <seg>.
+        # Encoding policy: only a hyphen in the displayed segmentation triggers <seg>.
         if "-" in text:
             split_at = text.index("-")
             ET.SubElement(orth, "seg").text = text[:split_at]
@@ -812,8 +811,8 @@ class SweetTEITransformer(Transformer):
         """Build the nested variant form after lemma tracking is available."""
         base = self._base_for_variant_expansion()
 
-        # Tilde variants are partial by definition. Use source_id as a safe
-        # expansion if available; fuller reconstruction can be added later.
+        # Tilde variants are partial by definition; source_id is used as the
+        # available expansion when present.
         if visible.startswith("~"):
             expand = self._source_id if self._source_id and visible != "~" else None
             return self._make_part_variant_form(visible, expand)
@@ -855,7 +854,7 @@ class SweetTEITransformer(Transformer):
 
 
     def _runon_seg_parts(self, parts: list[str]) -> list[str]:
-        """Group run-on surface pieces into the segments we want in <orth>."""
+        """Group run-on surface pieces into the required <orth> segments."""
         parts = [p for p in parts if p]
         if not parts:
             return []
@@ -1010,7 +1009,7 @@ class SweetTEITransformer(Transformer):
 
         if translation_item is not None:
             if translation_item.tag == "cit":
-                # User policy for examples: nested English translation uses type="translation".
+                # Encoding policy: a nested English example translation uses type="translation".
                 translation_item.set("type", "translation")
                 cit.append(translation_item)
             elif translation_item.tag == "bibl":
@@ -1023,7 +1022,7 @@ class SweetTEITransformer(Transformer):
         return cit
 
     def _collect_sense_content(self, obj, out: list[ET.Element]) -> None:
-        """Collect the minimal TEI elements allowed inside a bare sense for now."""
+        """Collect the TEI elements supported inside a bare sense."""
         if obj is None:
             return
         if isinstance(obj, ET.Element) and obj.tag in {"cit", "metamark", "bibl"}:
@@ -1409,7 +1408,7 @@ class SweetTEITransformer(Transformer):
 
     def xr_gramgrp(self, children):
         # Cross-reference grammar belongs inside the xr structure, not directly
-        # at entry level. Keep it out of the current entry-level gram step.
+        # at entry level, so it is excluded from entry-level grammatical output.
         return None
 
     def xr_gram(self, children):
@@ -1535,7 +1534,7 @@ class SweetTEITransformer(Transformer):
             if item.type in {"TILDE", "WORD"}:
                 parts.append(self._tok_text(item))
             if len([p for p in parts if p != "~"]) >= 1:
-                # first run-on form is enough for step 2
+                # Use the first run-on form as the lemma source for this transformation stage.
                 break
         if not parts:
             return None
@@ -1577,10 +1576,9 @@ class SweetTEITransformer(Transformer):
     def hom_entry(self, children):
         """Build a homonymicEntry shell from ROM_NUM.
 
-        The contents are intentionally collected generically. As grammar and
-        sense/grammar transformers are added, their output can already be
-        placed inside the correct homonymic entry rather than only at the
-        main-entry level.
+        Contents are collected generically so transformed grammatical and sense
+        elements are placed inside the correct homonymic entry rather than at
+        the main-entry level.
         """
         hom_info = None
         for child in self._flat(children):
@@ -1604,7 +1602,7 @@ class SweetTEITransformer(Transformer):
         })
         ET.SubElement(hom, "lbl", {"type": "homNum"}).text = text
 
-        # Collect future TEI children in source order. Skip the homonym number
+        # Collect transformed TEI children in source order. Skip the homonym number
         # payload itself and avoid nesting another homonym entry here.
         for child in children:
             if isinstance(child, dict) and child.get("_hom_num"):

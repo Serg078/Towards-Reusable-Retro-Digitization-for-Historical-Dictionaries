@@ -307,8 +307,8 @@ class DictionaryTransformer(Transformer):
         # per-entry state captured via tokens
         self._lemma = None          # first WORD in entry
         self._prefix = None         # '+', '±', or None
-        self._has_qm = False        # did we see QM?
-        self._variants = []          # remember orthographic variants for this entry
+        self._has_qm = False        # whether a question mark was encountered
+        self._variants = []          # orthographic variants recorded for this entry
         self._last_orth_base = None  # most recent orth base for spell_var expansion
         ET.register_namespace('xml', self.XML_NS)
 
@@ -333,8 +333,8 @@ class DictionaryTransformer(Transformer):
     def _make_pos_gram(self, inner_text: str) -> ET.Element:
         """
         inner_text is the POS token content with any surrounding parentheses removed
-        (e.g., 'adj.' or 'sv.'). We'll keep the original spelling in element text,
-        and map to a normalized @value via _POS_MAP (fallback: cleaned inner_text).
+        (e.g., 'adj.' or 'sv.'). The original spelling is retained in element text
+        and mapped to a normalized @value via _POS_MAP (fallback: cleaned inner_text).
         """
         txt = inner_text.strip().rstrip(",")
         norm = txt.lower()
@@ -773,8 +773,8 @@ class DictionaryTransformer(Transformer):
           be-byrgan ... -byrian
 
         The grammar consumes '-' separately, so variant_text may be 'byrian'.
-        We preserve the source marker as <seg>-byrian</seg> and expand from
-        the lemma split at the last hyphen:
+        The source marker is preserved as <seg>-byrian</seg>, and the expanded form
+        is derived from the lemma split at the last hyphen:
 
           be-byrgan + -byrian -> be-byrian
         """
@@ -874,7 +874,7 @@ class DictionaryTransformer(Transformer):
 
         Priority:
         1) If lemma ends with -lic or -lic. → replace with -līce
-        2) Else, if we saw a variant ending in 'lic' and starting with '-' (e.g. '-fullic'):
+        2) Else, if a recorded variant ends in 'lic' and starts with '-' (e.g. '-fullic'):
         - If lemma is hyphenated (e.g. 'georn-ful'), keep the base before the last hyphen
             and join the variant without the leading '-' and with 'lic'→'līce':
             'georn-' + 'fullic'→'fullīce' => 'georn-fullīce'
@@ -1204,7 +1204,7 @@ class DictionaryTransformer(Transformer):
 
         Rules:
         - Strip the leading '^'
-        - Keep ')' if present (encode as-is for now)
+        - Preserve ')' if present
         - If comma-separated (e.g. '1,2)' or '1,2'), emit TWO grams:
             first hi text keeps the comma: '1,'
             second hi text is the rest: '2)' or '2'
@@ -2787,7 +2787,7 @@ class DictionaryTransformer(Transformer):
     def simple_xr(self, children):
         """
         simple_xr: ... reflbl (refword | refwords) ...
-        For now we only use reflbl + the first refword.
+        Use the reference label and the first referenced word.
         """
         xr = ET.Element("xr", {"type": "related", "expand": "orthographic variant"})
         lbl_el, ref_el = None, None
@@ -2855,7 +2855,7 @@ class DictionaryTransformer(Transformer):
     def adv_word(self, children):
         """
         Grammar yields: 'adv.' then a WORD like '-līce', possibly commas, bibl, and/or a sense_section.
-        We turn it into a payload dict so relatedentry() can build the related entry.
+        Return a payload dictionary consumed by relatedentry().
         """
         suffix = None
         payload_children = []  # senses/bibl/metamark collected inside adv_word
@@ -2888,8 +2888,8 @@ class DictionaryTransformer(Transformer):
     
     def collocation(self, children):
         """
-        Build a simple payload we can read in relatedentry().
-        We expect exactly one COLLOC token string here.
+        Build a payload consumed by relatedentry().
+        The rule is expected to contain exactly one COLLOC token string.
         """
         text = ""
         for ch in children:
@@ -2903,7 +2903,7 @@ class DictionaryTransformer(Transformer):
     def oneword(self, children):
         """
         ONEWORD may include a leading '+' or '±' that the grammar doesn't split.
-        We detect it here and strip it from the surface, returning the symbol.
+        Detect the prefix and remove it from the returned surface form.
         """
         word = ""
         for ch in children:
@@ -3214,7 +3214,7 @@ class DictionaryTransformer(Transformer):
         """
         oldengword: WORD ROM_NUM? (bibl|parenbibl)? (COLON_SEP | SEMICOL_SEP)? COMMA?
 
-        For etymological square brackets, we only use:
+        For etymological square brackets, the transformation uses:
         - WORD
         - possible :, ;, ,
         """
@@ -3304,7 +3304,7 @@ class DictionaryTransformer(Transformer):
                 elif obj.type == "LBL":
                     labels.append(str(obj).strip())
                 elif obj.type == "COMMA":
-                    # Comma separates multiple forms. We do not encode it separately for now.
+                    # A comma separates multiple forms and is not encoded separately here.
                     pass
             elif isinstance(obj, ET.Element) and obj.tag == "metamark":
                 if (obj.text or "").strip() == ";":
@@ -3329,7 +3329,7 @@ class DictionaryTransformer(Transformer):
 
     def biblref(self, children):
         """
-        For now only handle simple cases like:
+        Handle simple cases such as:
             (v. SRC)
             v. SRC
 
@@ -3476,7 +3476,7 @@ class DictionaryTransformer(Transformer):
         else:
             orth.text = lemma
 
-        # add a lemma-level note (...resp=author...) if the headword carried a qm
+        # Add a lemma-level note (...resp=author...) when the headword contains a question mark.
         headword_qm = False
         def detect_headword_qm(obj):
             nonlocal headword_qm
@@ -3494,7 +3494,7 @@ class DictionaryTransformer(Transformer):
         if headword_qm:
             ET.SubElement(form, "note", {"cert": "low", "resp": "author"}).text = "?"
         
-        # Add headword-level bibl/usg material inside <form type="lemma">
+        # Place headword-level bibl/usg material inside <form type="lemma">.
         # Examples:
         #   hwu (LWS) = hū
         #   gief (rare EWS) = gif
@@ -3513,7 +3513,7 @@ class DictionaryTransformer(Transformer):
         for el in lemma_extras:
             form.append(el)
 
-        # Look for a request to add punctuation after the lemma orth (from orth_variant)
+        # Read lemma punctuation emitted by orth_variant().
         lemma_punct = None
         def _find_punct(obj):
             nonlocal lemma_punct
@@ -3864,7 +3864,7 @@ class DictionaryParser:
         text = ET.SubElement(tei, f"{{{NS}}}text")
         body = ET.SubElement(text, f"{{{NS}}}body")
 
-        # Add the stats as an XML comment INSIDE <body>
+        # Insert parsing statistics as an XML comment inside <body>.
         stats_banner = (
             "TRANSFORMED RESULTS FOR SUCCESSFULLY PARSED ENTRIES\n"
             + "="*50 + "\n"
